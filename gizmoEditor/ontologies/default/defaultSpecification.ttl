@@ -1,0 +1,136 @@
+@prefix defaultSpecification: <http://visualdataweb.org/ontologies/defaultSpecification#> . 
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix gizmo: <http://visualdataweb.org/ontologies/gizmo-core#> .
+@base <http://visualdataweb.org/ontologies/gizmo-MetaOntology> .
+<http://visualdataweb.org/ontologies/defaultSpecification> rdf:type owl:Ontology .
+
+
+#################################################################
+# GIZMO Element Assignment 
+#################################################################
+
+####---- defaultSpecification:defaultNodeElement ----####
+defaultSpecification:defaultNodeElement rdf:type owl:NamedIndividual . 
+defaultSpecification:defaultNodeElement gizmo:renderingType "ellipse"^^xsd:string ;
+         gizmo:bgColor "#cccccc"^^xsd:string ;
+         gizmo:defaultCollapsedDatatypes "false"^^rdfs:Literal ;
+         gizmo:allowDatatypeCollapseExpand "true"^^xsd:boolean ;
+         gizmo:defaultCollapsedLoops "false"^^rdfs:Literal ;
+         gizmo:allowLoopCollapseExpand "true"^^xsd:boolean ;
+         gizmo:fontSizeOverWritesShapeSize "true"^^xsd:boolean ;
+         gizmo:overWriteOffset "25"^^xsd:positiveInteger ;
+         gizmo:strokeElement "true"^^xsd:boolean ;
+         gizmo:strokeStyle "solid"^^xsd:string ;
+         gizmo:strokeWidth "2px"^^xsd:positiveInteger ;
+         gizmo:strokeColor "#ffffff"^^xsd:string ;
+         gizmo:fontFamily "Helvetica,Arial,sans-serif"^^xsd:string ;
+         gizmo:fontColor "#000000"^^xsd:string ;
+         gizmo:fontSize "12px"^^xsd:string ;
+         gizmo:hoverInCursor "pointer"^^xsd:string ;
+         gizmo:hoverInColor "#ff0000"^^xsd:string ;
+         gizmo:hoverInStrokeColor "#ff0000"^^xsd:string ;
+         gizmo:hoverInFontColor "#000000"^^xsd:string ;
+         gizmo:hoverInFontFamily "Helvetica,Arial,sans-serif"^^xsd:string ;
+         gizmo:targetElement defaultSpecification:defaultNodeElement .
+
+####---- defaultSpecification:defaultDatatypeElement ----####
+defaultSpecification:defaultDatatypeElement rdf:type owl:NamedIndividual . 
+defaultSpecification:defaultDatatypeElement gizmo:renderingType "rect"^^xsd:string ;
+         gizmo:bgColor "#ff8d00"^^xsd:string ;
+         gizmo:roundedCorner "3,10"^^xsd:int ;
+         gizmo:fontSizeOverWritesShapeSize "true"^^xsd:boolean ;
+         gizmo:overWriteOffset "12"^^xsd:positiveInteger ;
+         gizmo:strokeElement "true"^^xsd:boolean ;
+         gizmo:strokeStyle "solid"^^xsd:string ;
+         gizmo:strokeWidth "2px"^^xsd:positiveInteger ;
+         gizmo:strokeColor "#000000"^^xsd:string ;
+         gizmo:fontFamily "Helvetica,Arial,sans-serif"^^xsd:string ;
+         gizmo:fontColor "#000000"^^xsd:string ;
+         gizmo:fontSize "12px"^^xsd:string ;
+         gizmo:hoverInCursor "pointer"^^xsd:string ;
+         gizmo:hoverInColor "#ff0000"^^xsd:string ;
+         gizmo:hoverInStrokeColor "#ff0000"^^xsd:string ;
+         gizmo:hoverInFontColor "#000000"^^xsd:string ;
+         gizmo:hoverInFontFamily "Helvetica,Arial,sans-serif"^^xsd:string ;
+         gizmo:targetElement defaultSpecification:defaultDatatypeElement .
+
+####---- defaultSpecification:defaultPropertyElement ----####
+defaultSpecification:defaultPropertyElement rdf:type owl:NamedIndividual . 
+defaultSpecification:defaultPropertyElement gizmo:renderingType "ellipse"^^xsd:string ;
+         gizmo:bgColor "#cbcbcb"^^xsd:string ;
+         gizmo:fontSizeOverWritesShapeSize "true"^^xsd:boolean ;
+         gizmo:overWriteOffset "25"^^xsd:positiveInteger ;
+         gizmo:strokeElement "true"^^xsd:boolean ;
+         gizmo:strokeStyle "solid"^^xsd:string ;
+         gizmo:strokeWidth "2px"^^xsd:positiveInteger ;
+         gizmo:strokeColor "#000000"^^xsd:string ;
+         gizmo:link_strokeStyle "solid"^^xsd:string ;
+         gizmo:link_strokeWidth "2px"^^xsd:positiveInteger ;
+         gizmo:link_strokeColor "#000000"^^xsd:string ;
+         gizmo:link_hoverColor "#ff0000"^^xsd:string ;
+         gizmo:link_arrowHead "true"^^xsd:string ;
+         gizmo:link_arrowHead_renderingType "triangle"^^xsd:string ;
+         gizmo:link_arrowHead_scaleFactor "1.0"^^xsd:double ;
+         gizmo:link_arrowHead_strokeWidth "2px"^^xsd:positiveInteger ;
+         gizmo:link_arrowHead_strokeStyle "solid"^^xsd:string ;
+         gizmo:link_arrowHead_strokeColor "#000000"^^xsd:string ;
+         gizmo:link_arrowHead_fillColor "#000000"^^xsd:string ;
+         gizmo:fontFamily "Helvetica,Arial,sans-serif"^^xsd:string ;
+         gizmo:fontColor "#000000"^^xsd:string ;
+         gizmo:fontSize "12px"^^xsd:string ;
+         gizmo:hoverInCursor "pointer"^^xsd:string ;
+         gizmo:hoverInColor "#ff0000"^^xsd:string ;
+         gizmo:hoverInStrokeColor "#ff0000"^^xsd:string ;
+         gizmo:hoverInFontColor "#000000"^^xsd:string ;
+         gizmo:hoverInFontFamily "Helvetica,Arial,sans-serif"^^xsd:string ;
+         gizmo:hoverInFontSize "12px"^^xsd:string ;
+         gizmo:targetElement defaultSpecification:defaultPropertyElement .
+
+####---- defaultSpecification:collapsedMultiLinkProperty ----####
+defaultSpecification:collapsedMultiLinkProperty rdf:type owl:NamedIndividual . 
+defaultSpecification:collapsedMultiLinkProperty gizmo:renderingType "rect"^^xsd:string ;
+         gizmo:bgColor "#c4c4c4"^^xsd:string ;
+         gizmo:roundedCorner "0,0"^^xsd:int ;
+         gizmo:fontSizeOverWritesShapeSize "false"^^xsd:boolean ;
+         gizmo:width "60"^^xsd:positiveInteger ;
+         gizmo:height "20"^^xsd:positiveInteger ;
+         gizmo:strokeElement "false"^^xsd:boolean ;
+         gizmo:link_strokeStyle "dashed"^^xsd:string ;
+         gizmo:link_strokeWidth "2px"^^xsd:positiveInteger ;
+         gizmo:link_strokeColor "#000000"^^xsd:string ;
+         gizmo:link_hoverColor "undefined"^^xsd:string ;
+         gizmo:link_arrowHead "false"^^xsd:string ;
+         gizmo:fontFamily "Helvetica,Arial,sans-serif"^^xsd:string ;
+         gizmo:fontColor "#000000"^^xsd:string ;
+         gizmo:fontSize "12px"^^xsd:string ;
+         gizmo:hoverInCursor "pointer"^^xsd:string ;
+         gizmo:hoverInColor "#ff0000"^^xsd:string ;
+         gizmo:hoverInStrokeColor "#ff0000"^^xsd:string ;
+         gizmo:hoverInFontColor "#000000"^^xsd:string ;
+         gizmo:hoverInFontFamily "Helvetica,Arial,sans-serif"^^xsd:string ;
+         gizmo:hoverInFontSize "12px"^^xsd:string ;
+         gizmo:targetElement defaultSpecification:collapsedMultiLinkProperty .
+
+####---- defaultSpecification:collapsedDatatypes ----####
+defaultSpecification:collapsedDatatypes rdf:type owl:NamedIndividual . 
+defaultSpecification:collapsedDatatypes gizmo:renderingType "inshape"^^xsd:string ;
+         gizmo:inshapeType "indicator"^^xsd:string ;
+         gizmo:inshapeIndicatorOffset "0"^^xsd:positiveInteger ;
+         gizmo:inshapeStrokeType "solid"^^xsd:string ;
+         gizmo:inshapeStrokeColor "#00fff9"^^xsd:string ;
+         gizmo:inshapeStrokeStrokeWidth "2"^^xsd:positiveInteger ;
+         gizmo:targetElement defaultSpecification:collapsedDatatypes .
+
+####---- defaultSpecification:collapsedLoops ----####
+defaultSpecification:collapsedLoops rdf:type owl:NamedIndividual . 
+defaultSpecification:collapsedLoops gizmo:renderingType "inshape"^^xsd:string ;
+         gizmo:inshapeType "indicator"^^xsd:string ;
+         gizmo:inshapeIndicatorOffset "0"^^xsd:positiveInteger ;
+         gizmo:inshapeStrokeType "dashed"^^xsd:string ;
+         gizmo:inshapeStrokeColor "#166aea"^^xsd:string ;
+         gizmo:inshapeStrokeStrokeWidth "2"^^xsd:positiveInteger ;
+         gizmo:targetElement defaultSpecification:collapsedLoops .

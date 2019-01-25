@@ -1,0 +1,317 @@
+@prefix : <http://visualdataweb.org/ontologies/gizmo-MetaOntology#> . 
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix gizmo: <http://visualdataweb.org/ontologies/unpublishedGIZMO#> .
+@base <http://visualdataweb.org/ontologies/unpublishedGIZMO> .
+<http://visualdataweb.org/ontologies/unpublishedGIZMO> rdf:type owl:Ontology .
+
+#################################################################
+# GIZMO Annotation properties
+#################################################################
+gizmo:renderingType rdf:type owl:AnnotationProperty. 
+gizmo:width rdf:type owl:AnnotationProperty. 
+gizmo:height rdf:type owl:AnnotationProperty. 
+gizmo:roundedCorner rdf:type owl:AnnotationProperty. 
+gizmo:bgColor rdf:type owl:AnnotationProperty. 
+gizmo:strokeElement rdf:type owl:AnnotationProperty. 
+gizmo:strokeWidth rdf:type owl:AnnotationProperty. 
+gizmo:strokeStyle rdf:type owl:AnnotationProperty. 
+gizmo:strokeColor rdf:type owl:AnnotationProperty. 
+gizmo:radius rdf:type owl:AnnotationProperty. 
+gizmo:renderingLayer rdf:type owl:AnnotationProperty. 
+gizmo:hoverInCursor rdf:type owl:AnnotationProperty. 
+gizmo:hoverInColor rdf:type owl:AnnotationProperty. 
+gizmo:hoverInStrokeColor rdf:type owl:AnnotationProperty. 
+gizmo:hoverInFontColor rdf:type owl:AnnotationProperty. 
+gizmo:hoverInFontSize rdf:type owl:AnnotationProperty. 
+gizmo:hoverInFontFamily rdf:type owl:AnnotationProperty. 
+gizmo:fontSizeOverWritesShapeSize rdf:type owl:AnnotationProperty. 
+gizmo:fontFamily rdf:type owl:AnnotationProperty. 
+gizmo:fontSize rdf:type owl:AnnotationProperty. 
+gizmo:fontColor rdf:type owl:AnnotationProperty. 
+gizmo:link_renderingType rdf:type owl:AnnotationProperty. 
+gizmo:link_strokeWidth rdf:type owl:AnnotationProperty. 
+gizmo:link_strokeStyle rdf:type owl:AnnotationProperty. 
+gizmo:link_strokeColor rdf:type owl:AnnotationProperty. 
+gizmo:link_arrowHead rdf:type owl:AnnotationProperty. 
+gizmo:link_arrowHead_scaleFactor rdf:type owl:AnnotationProperty. 
+gizmo:link_arrowHead_renderingType rdf:type owl:AnnotationProperty. 
+gizmo:link_arrowHead_strokeWidth rdf:type owl:AnnotationProperty. 
+gizmo:link_arrowHead_strokeStyle rdf:type owl:AnnotationProperty. 
+gizmo:link_arrowHead_strokeColor rdf:type owl:AnnotationProperty. 
+gizmo:link_arrowHead_fillColor rdf:type owl:AnnotationProperty. 
+gizmo:overWriteOffset rdf:type owl:AnnotationProperty. 
+gizmo:inshapeType rdf:type owl:AnnotationProperty. 
+gizmo:inshapeIndicatorOffset rdf:type owl:AnnotationProperty. 
+gizmo:inshapeStrokeType rdf:type owl:AnnotationProperty. 
+gizmo:inshapeStrokeColor rdf:type owl:AnnotationProperty. 
+gizmo:inshapeStrokeStrokeWidth rdf:type owl:AnnotationProperty. 
+gizmo:segmentType rdf:type owl:AnnotationProperty. 
+gizmo:segmentStartAngle rdf:type owl:AnnotationProperty. 
+gizmo:segmentHeight rdf:type owl:AnnotationProperty. 
+gizmo:segmentOffset rdf:type owl:AnnotationProperty. 
+gizmo:showLabelInSegment rdf:type owl:AnnotationProperty. 
+gizmo:segmentLabelSize rdf:type owl:AnnotationProperty. 
+gizmo:segmentAdjustmentMargin rdf:type owl:AnnotationProperty. 
+gizmo:umlShapeAdjustsShapeSize rdf:type owl:AnnotationProperty. 
+gizmo:umlElementScaleFactor rdf:type owl:AnnotationProperty. 
+gizmo:umlHeightOffset rdf:type owl:AnnotationProperty. 
+gizmo:umlOffsetToHeader rdf:type owl:AnnotationProperty. 
+gizmo:umlOffsetToAfterLastElement rdf:type owl:AnnotationProperty. 
+gizmo:umlMarginLeft rdf:type owl:AnnotationProperty. 
+gizmo:umlMarginRight rdf:type owl:AnnotationProperty. 
+gizmo:umlShowDatatypeProperty rdf:type owl:AnnotationProperty. 
+gizmo:umlMarginBetween rdf:type owl:AnnotationProperty. 
+gizmo:link_hoverColor rdf:type owl:AnnotationProperty. 
+gizmo:defaultCollapsedDatatypes rdf:type owl:AnnotationProperty. 
+gizmo:allowDatatypeCollapseExpand rdf:type owl:AnnotationProperty. 
+gizmo:defaultCollapsedLoops rdf:type owl:AnnotationProperty. 
+gizmo:allowLoopCollapseExpand rdf:type owl:AnnotationProperty. 
+
+#################################################################
+# GIZMO Element Assignment 
+#################################################################
+
+
+####---- owl:DatatypeProperty ----####
+owl:DatatypeProperty gizmo:renderingType "rect"^^rdfs:Literal ;
+         gizmo:width "120"^^rdfs:Literal ;
+         gizmo:height "20"^^rdfs:Literal ;
+         gizmo:roundedCorner "0,0"^^rdfs:Literal ;
+         gizmo:bgColor "#99cc66"^^rdfs:Literal ;
+         gizmo:strokeElement "false"^^rdfs:Literal ;
+         gizmo:strokeWidth "2px"^^rdfs:Literal ;
+         gizmo:strokeStyle "solid"^^rdfs:Literal ;
+         gizmo:strokeColor "#00ff00"^^rdfs:Literal ;
+         gizmo:radius "25"^^rdfs:Literal ;
+         gizmo:renderingLayer "nodes"^^rdfs:Literal ;
+         gizmo:hoverInCursor "pointer"^^rdfs:Literal ;
+         gizmo:hoverInColor "#ff0000"^^rdfs:Literal ;
+         gizmo:hoverInStrokeColor "#ff0000"^^rdfs:Literal ;
+         gizmo:hoverInFontColor "#000000"^^rdfs:Literal ;
+         gizmo:hoverInFontSize "12px"^^rdfs:Literal ;
+         gizmo:hoverInFontFamily "Helvetica,Arial,sans-serif"^^rdfs:Literal ;
+         gizmo:fontSizeOverWritesShapeSize "true"^^rdfs:Literal ;
+         gizmo:fontFamily "Helvetica,Arial,sans-serif"^^rdfs:Literal ;
+         gizmo:fontColor "#000000"^^rdfs:Literal ;
+         gizmo:fontSize "12px"^^rdfs:Literal ;
+         gizmo:link_renderingType "line"^^rdfs:Literal ;
+         gizmo:link_strokeWidth "2px"^^rdfs:Literal ;
+         gizmo:link_strokeStyle "solid"^^rdfs:Literal ;
+         gizmo:link_strokeColor "#000000"^^rdfs:Literal ;
+         gizmo:link_hoverColor "#ff0000"^^rdfs:Literal ;
+         gizmo:link_arrowHead "true"^^rdfs:Literal ;
+         gizmo:link_arrowHead_scaleFactor "1"^^rdfs:Literal ;
+         gizmo:link_arrowHead_renderingType "triangle"^^rdfs:Literal ;
+         gizmo:link_arrowHead_strokeWidth "2px"^^rdfs:Literal ;
+         gizmo:link_arrowHead_strokeStyle "solid"^^rdfs:Literal ;
+         gizmo:link_arrowHead_strokeColor "#000000"^^rdfs:Literal ;
+         gizmo:link_arrowHead_fillColor "#000000"^^rdfs:Literal ;
+         gizmo:overWriteOffset "11"^^rdfs:Literal .
+
+####---- owl:Thing ----####
+owl:Thing gizmo:renderingType "circle"^^rdfs:Literal ;
+         gizmo:width "100"^^rdfs:Literal ;
+         gizmo:height "50"^^rdfs:Literal ;
+         gizmo:roundedCorner "10,10"^^rdfs:Literal ;
+         gizmo:bgColor "#ffffff"^^rdfs:Literal ;
+         gizmo:strokeElement "true"^^rdfs:Literal ;
+         gizmo:strokeWidth "1px"^^rdfs:Literal ;
+         gizmo:strokeStyle "dashed"^^rdfs:Literal ;
+         gizmo:strokeColor "#000000"^^rdfs:Literal ;
+         gizmo:radius "35"^^rdfs:Literal ;
+         gizmo:renderingLayer "nodes"^^rdfs:Literal ;
+         gizmo:hoverInCursor "pointer"^^rdfs:Literal ;
+         gizmo:hoverInColor "#ff0000"^^rdfs:Literal ;
+         gizmo:hoverInStrokeColor "#ff0000"^^rdfs:Literal ;
+         gizmo:hoverInFontColor "#000000"^^rdfs:Literal ;
+         gizmo:hoverInFontSize "12px"^^rdfs:Literal ;
+         gizmo:hoverInFontFamily "Helvetica,Arial,sans-serif"^^rdfs:Literal ;
+         gizmo:fontFamily "Helvetica,Arial,sans-serif"^^rdfs:Literal ;
+         gizmo:fontColor "#000000"^^rdfs:Literal ;
+         gizmo:fontSize "12px"^^rdfs:Literal ;
+         gizmo:fontSizeOverWritesShapeSize "false"^^rdfs:Literal ;
+         gizmo:overWriteOffset "5"^^rdfs:Literal ;
+         gizmo:defaultCollapsedDatatypes "false"^^rdfs:Literal ;
+         gizmo:allowDatatypeCollapseExpand "true"^^rdfs:Literal ;
+         gizmo:defaultCollapsedLoops "false"^^rdfs:Literal ;
+         gizmo:allowLoopCollapseExpand "true"^^rdfs:Literal .
+
+####---- owl:Class ----####
+owl:Class gizmo:renderingType "circle"^^rdfs:Literal ;
+         gizmo:width "100"^^rdfs:Literal ;
+         gizmo:height "50"^^rdfs:Literal ;
+         gizmo:roundedCorner "10,10"^^rdfs:Literal ;
+         gizmo:bgColor "#aaccff"^^rdfs:Literal ;
+         gizmo:strokeElement "true"^^rdfs:Literal ;
+         gizmo:strokeWidth "1px"^^rdfs:Literal ;
+         gizmo:strokeStyle "solid"^^rdfs:Literal ;
+         gizmo:strokeColor "#000000"^^rdfs:Literal ;
+         gizmo:radius "50"^^rdfs:Literal ;
+         gizmo:renderingLayer "nodes"^^rdfs:Literal ;
+         gizmo:hoverInCursor "pointer"^^rdfs:Literal ;
+         gizmo:hoverInColor "#ff0000"^^rdfs:Literal ;
+         gizmo:hoverInStrokeColor "#ff0000"^^rdfs:Literal ;
+         gizmo:hoverInFontColor "#000000"^^rdfs:Literal ;
+         gizmo:hoverInFontSize "12px"^^rdfs:Literal ;
+         gizmo:hoverInFontFamily "Helvetica,Arial,sans-serif"^^rdfs:Literal ;
+         gizmo:fontFamily "Helvetica,Arial,sans-serif"^^rdfs:Literal ;
+         gizmo:fontColor "#000000"^^rdfs:Literal ;
+         gizmo:fontSize "12px"^^rdfs:Literal ;
+         gizmo:fontSizeOverWritesShapeSize "false"^^rdfs:Literal ;
+         gizmo:overWriteOffset "5"^^rdfs:Literal ;
+         gizmo:defaultCollapsedDatatypes "false"^^rdfs:Literal ;
+         gizmo:allowDatatypeCollapseExpand "true"^^rdfs:Literal ;
+         gizmo:defaultCollapsedLoops "false"^^rdfs:Literal ;
+         gizmo:allowLoopCollapseExpand "true"^^rdfs:Literal .
+
+####---- owl:equivalentClass ----####
+owl:equivalentClass gizmo:renderingType "circle"^^rdfs:Literal ;
+         gizmo:width "100"^^rdfs:Literal ;
+         gizmo:height "50"^^rdfs:Literal ;
+         gizmo:roundedCorner "10,10"^^rdfs:Literal ;
+         gizmo:bgColor "#aaccff"^^rdfs:Literal ;
+         gizmo:strokeElement "true"^^rdfs:Literal ;
+         gizmo:strokeWidth "5px"^^rdfs:Literal ;
+         gizmo:strokeStyle "dotted"^^rdfs:Literal ;
+         gizmo:strokeColor "#000000"^^rdfs:Literal ;
+         gizmo:radius "50"^^rdfs:Literal ;
+         gizmo:renderingLayer "nodes"^^rdfs:Literal ;
+         gizmo:hoverInCursor "pointer"^^rdfs:Literal ;
+         gizmo:hoverInColor "#ff0000"^^rdfs:Literal ;
+         gizmo:hoverInStrokeColor "#ff0000"^^rdfs:Literal ;
+         gizmo:hoverInFontColor "#000000"^^rdfs:Literal ;
+         gizmo:hoverInFontSize "12px"^^rdfs:Literal ;
+         gizmo:hoverInFontFamily "Helvetica,Arial,sans-serif"^^rdfs:Literal ;
+         gizmo:fontFamily "Helvetica,Arial,sans-serif"^^rdfs:Literal ;
+         gizmo:fontColor "#000000"^^rdfs:Literal ;
+         gizmo:fontSize "12px"^^rdfs:Literal ;
+         gizmo:fontSizeOverWritesShapeSize "false"^^rdfs:Literal ;
+         gizmo:overWriteOffset "5"^^rdfs:Literal ;
+         gizmo:defaultCollapsedDatatypes "false"^^rdfs:Literal ;
+         gizmo:allowDatatypeCollapseExpand "true"^^rdfs:Literal ;
+         gizmo:defaultCollapsedLoops "false"^^rdfs:Literal ;
+         gizmo:allowLoopCollapseExpand "true"^^rdfs:Literal .
+
+####---- owl:ObjectProperty ----####
+owl:ObjectProperty gizmo:renderingType "rect"^^rdfs:Literal ;
+         gizmo:width "120"^^rdfs:Literal ;
+         gizmo:height "20"^^rdfs:Literal ;
+         gizmo:roundedCorner "0,0"^^rdfs:Literal ;
+         gizmo:bgColor "#aaccff"^^rdfs:Literal ;
+         gizmo:strokeElement "false"^^rdfs:Literal ;
+         gizmo:strokeWidth "2px"^^rdfs:Literal ;
+         gizmo:strokeStyle "solid"^^rdfs:Literal ;
+         gizmo:strokeColor "#00ff00"^^rdfs:Literal ;
+         gizmo:radius "25"^^rdfs:Literal ;
+         gizmo:renderingLayer "nodes"^^rdfs:Literal ;
+         gizmo:hoverInCursor "pointer"^^rdfs:Literal ;
+         gizmo:hoverInColor "#ff0000"^^rdfs:Literal ;
+         gizmo:hoverInStrokeColor "#ff0000"^^rdfs:Literal ;
+         gizmo:hoverInFontColor "#000000"^^rdfs:Literal ;
+         gizmo:hoverInFontSize "12px"^^rdfs:Literal ;
+         gizmo:hoverInFontFamily "Helvetica,Arial,sans-serif"^^rdfs:Literal ;
+         gizmo:fontSizeOverWritesShapeSize "true"^^rdfs:Literal ;
+         gizmo:fontFamily "Helvetica,Arial,sans-serif"^^rdfs:Literal ;
+         gizmo:fontColor "#000000"^^rdfs:Literal ;
+         gizmo:fontSize "12px"^^rdfs:Literal ;
+         gizmo:link_renderingType "line"^^rdfs:Literal ;
+         gizmo:link_strokeWidth "2px"^^rdfs:Literal ;
+         gizmo:link_strokeStyle "solid"^^rdfs:Literal ;
+         gizmo:link_strokeColor "#000000"^^rdfs:Literal ;
+         gizmo:link_hoverColor "#ff0000"^^rdfs:Literal ;
+         gizmo:link_arrowHead "true"^^rdfs:Literal ;
+         gizmo:link_arrowHead_scaleFactor "1"^^rdfs:Literal ;
+         gizmo:link_arrowHead_renderingType "triangle"^^rdfs:Literal ;
+         gizmo:link_arrowHead_strokeWidth "2px"^^rdfs:Literal ;
+         gizmo:link_arrowHead_strokeStyle "solid"^^rdfs:Literal ;
+         gizmo:link_arrowHead_strokeColor "#000000"^^rdfs:Literal ;
+         gizmo:link_arrowHead_fillColor "#000000"^^rdfs:Literal ;
+         gizmo:overWriteOffset "11"^^rdfs:Literal .
+
+####---- rdfs:subClassOf ----####
+rdfs:subClassOf gizmo:renderingType "rect"^^rdfs:Literal ;
+         gizmo:width "120"^^rdfs:Literal ;
+         gizmo:height "20"^^rdfs:Literal ;
+         gizmo:roundedCorner "0,0"^^rdfs:Literal ;
+         gizmo:bgColor "#ecf0f1"^^rdfs:Literal ;
+         gizmo:strokeElement "false"^^rdfs:Literal ;
+         gizmo:strokeWidth "2px"^^rdfs:Literal ;
+         gizmo:strokeStyle "solid"^^rdfs:Literal ;
+         gizmo:strokeColor "#00ff00"^^rdfs:Literal ;
+         gizmo:radius "25"^^rdfs:Literal ;
+         gizmo:renderingLayer "nodes"^^rdfs:Literal ;
+         gizmo:hoverInCursor "pointer"^^rdfs:Literal ;
+         gizmo:hoverInColor "#ff0000"^^rdfs:Literal ;
+         gizmo:hoverInStrokeColor "#ff0000"^^rdfs:Literal ;
+         gizmo:hoverInFontColor "#000000"^^rdfs:Literal ;
+         gizmo:hoverInFontSize "12px"^^rdfs:Literal ;
+         gizmo:hoverInFontFamily "Helvetica,Arial,sans-serif"^^rdfs:Literal ;
+         gizmo:fontSizeOverWritesShapeSize "true"^^rdfs:Literal ;
+         gizmo:fontFamily "Helvetica,Arial,sans-serif"^^rdfs:Literal ;
+         gizmo:fontColor "#000000"^^rdfs:Literal ;
+         gizmo:fontSize "12px"^^rdfs:Literal ;
+         gizmo:link_renderingType "line"^^rdfs:Literal ;
+         gizmo:link_strokeWidth "2px"^^rdfs:Literal ;
+         gizmo:link_strokeStyle "dotted"^^rdfs:Literal ;
+         gizmo:link_strokeColor "#000000"^^rdfs:Literal ;
+         gizmo:link_hoverColor "#ff0000"^^rdfs:Literal ;
+         gizmo:link_arrowHead "true"^^rdfs:Literal ;
+         gizmo:link_arrowHead_scaleFactor "1"^^rdfs:Literal ;
+         gizmo:link_arrowHead_renderingType "triangle"^^rdfs:Literal ;
+         gizmo:link_arrowHead_strokeWidth "2px"^^rdfs:Literal ;
+         gizmo:link_arrowHead_strokeStyle "solid"^^rdfs:Literal ;
+         gizmo:link_arrowHead_strokeColor "#000000"^^rdfs:Literal ;
+         gizmo:link_arrowHead_fillColor "#ffffff"^^rdfs:Literal ;
+         gizmo:overWriteOffset "11"^^rdfs:Literal .
+
+####---- rdfs:Datatype ----####
+rdfs:Datatype gizmo:renderingType "rect"^^rdfs:Literal ;
+         gizmo:width "120"^^rdfs:Literal ;
+         gizmo:height "20"^^rdfs:Literal ;
+         gizmo:roundedCorner "0,0"^^rdfs:Literal ;
+         gizmo:bgColor "#f7cc33"^^rdfs:Literal ;
+         gizmo:strokeElement "true"^^rdfs:Literal ;
+         gizmo:strokeWidth "2px"^^rdfs:Literal ;
+         gizmo:strokeStyle "solid"^^rdfs:Literal ;
+         gizmo:strokeColor "#000000"^^rdfs:Literal ;
+         gizmo:radius "25"^^rdfs:Literal ;
+         gizmo:renderingLayer "nodes"^^rdfs:Literal ;
+         gizmo:hoverInCursor "pointer"^^rdfs:Literal ;
+         gizmo:hoverInColor "#ff0000"^^rdfs:Literal ;
+         gizmo:hoverInStrokeColor "#ff0000"^^rdfs:Literal ;
+         gizmo:hoverInFontColor "#000000"^^rdfs:Literal ;
+         gizmo:hoverInFontSize "12px"^^rdfs:Literal ;
+         gizmo:hoverInFontFamily "Helvetica,Arial,sans-serif"^^rdfs:Literal ;
+         gizmo:fontSizeOverWritesShapeSize "true"^^rdfs:Literal ;
+         gizmo:fontFamily "Helvetica,Arial,sans-serif"^^rdfs:Literal ;
+         gizmo:fontColor "#000000"^^rdfs:Literal ;
+         gizmo:fontSize "12px"^^rdfs:Literal ;
+         gizmo:overWriteOffset "9"^^rdfs:Literal .
+
+####---- rdfs:Literal ----####
+rdfs:Literal gizmo:renderingType "rect"^^rdfs:Literal ;
+         gizmo:width "120"^^rdfs:Literal ;
+         gizmo:height "20"^^rdfs:Literal ;
+         gizmo:roundedCorner "0,0"^^rdfs:Literal ;
+         gizmo:bgColor "#f7cc33"^^rdfs:Literal ;
+         gizmo:strokeElement "true"^^rdfs:Literal ;
+         gizmo:strokeWidth "2px"^^rdfs:Literal ;
+         gizmo:strokeStyle "dashed"^^rdfs:Literal ;
+         gizmo:strokeColor "#000000"^^rdfs:Literal ;
+         gizmo:radius "25"^^rdfs:Literal ;
+         gizmo:renderingLayer "nodes"^^rdfs:Literal ;
+         gizmo:hoverInCursor "pointer"^^rdfs:Literal ;
+         gizmo:hoverInColor "#ff0000"^^rdfs:Literal ;
+         gizmo:hoverInStrokeColor "#ff0000"^^rdfs:Literal ;
+         gizmo:hoverInFontColor "#000000"^^rdfs:Literal ;
+         gizmo:hoverInFontSize "12px"^^rdfs:Literal ;
+         gizmo:hoverInFontFamily "Helvetica,Arial,sans-serif"^^rdfs:Literal ;
+         gizmo:fontSizeOverWritesShapeSize "true"^^rdfs:Literal ;
+         gizmo:fontFamily "Helvetica,Arial,sans-serif"^^rdfs:Literal ;
+         gizmo:fontColor "#000000"^^rdfs:Literal ;
+         gizmo:fontSize "12px"^^rdfs:Literal ;
+         gizmo:overWriteOffset "9"^^rdfs:Literal .

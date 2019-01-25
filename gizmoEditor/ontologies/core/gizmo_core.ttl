@@ -1,0 +1,318 @@
+@prefix : <http://visualdataweb.org/ontologies/gizmo-core#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix gizmo: <http://visualdataweb.org/ontologies/gizmo-core#> .
+@base <http://visualdataweb.org/ontologies/gizmo-core> .
+
+<http://visualdataweb.org/ontologies/gizmo-core> rdf:type owl:Ontology .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://visualdataweb.org/ontologies/gizmo-core#allowDatatypeCollapseExpand
+gizmo:allowDatatypeCollapseExpand rdf:type owl:AnnotationProperty ;
+                                  rdfs:comment "Defines if notation allows to collapse datatypes" ;
+                                  rdfs:isDefinedBy <http://visualdataweb.org/ontologies/gizmo-core/#> ;
+                                  rdfs:range xsd:boolean .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#allowLoopCollapseExpand
+gizmo:allowLoopCollapseExpand rdf:type owl:AnnotationProperty ;
+                              rdfs:comment "Defines if notation allows to collapse loops" ;
+                              rdfs:range xsd:boolean .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#annotationIndividual
+gizmo:annotationIndividual rdf:type owl:AnnotationProperty ;
+                           rdfs:comment "Boolean Flag (TRUE) for annotation Individuals" ;
+                           rdfs:range xsd:boolean .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#bgColor
+gizmo:bgColor rdf:type owl:AnnotationProperty ;
+              rdfs:comment """Background color an element e.g #ff0000 for red.
+For simplicity simply as xsd:string""" ;
+              rdfs:range xsd:string .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#fontColor
+gizmo:fontColor rdf:type owl:AnnotationProperty ;
+                rdfs:range xsd:string .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#fontFamily
+gizmo:fontFamily rdf:type owl:AnnotationProperty ;
+                 rdfs:range xsd:string .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#fontSize
+gizmo:fontSize rdf:type owl:AnnotationProperty ;
+               rdfs:range xsd:string .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#fontSizeOverWritesShapeSize
+gizmo:fontSizeOverWritesShapeSize rdf:type owl:AnnotationProperty ;
+                                  rdfs:range xsd:boolean .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#height
+gizmo:height rdf:type owl:AnnotationProperty ;
+             rdfs:range xsd:positiveInteger .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#hoverInColor
+gizmo:hoverInColor rdf:type owl:AnnotationProperty ;
+                   rdfs:range xsd:string .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#hoverInCursor
+gizmo:hoverInCursor rdf:type owl:AnnotationProperty ;
+                    rdfs:range xsd:string .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#hoverInFontColor
+gizmo:hoverInFontColor rdf:type owl:AnnotationProperty ;
+                       rdfs:range xsd:string .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#hoverInFontFamily
+gizmo:hoverInFontFamily rdf:type owl:AnnotationProperty ;
+                        rdfs:range xsd:string .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#hoverInFontSize
+gizmo:hoverInFontSize rdf:type owl:AnnotationProperty ;
+                      rdfs:range xsd:string .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#hoverInStrokeColor
+gizmo:hoverInStrokeColor rdf:type owl:AnnotationProperty ;
+                         rdfs:range xsd:string .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#inshapeIndicatorOffset
+gizmo:inshapeIndicatorOffset rdf:type owl:AnnotationProperty ;
+                             rdfs:range xsd:positiveInteger .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#inshapeStrokeColor
+gizmo:inshapeStrokeColor rdf:type owl:AnnotationProperty ;
+                         rdfs:range xsd:string .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#inshapeStrokeStrokeWidth
+gizmo:inshapeStrokeStrokeWidth rdf:type owl:AnnotationProperty ;
+                               rdfs:range xsd:positiveInteger .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#inshapeStrokeType
+gizmo:inshapeStrokeType rdf:type owl:AnnotationProperty ;
+                        rdfs:range xsd:string .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#inshapeType
+gizmo:inshapeType rdf:type owl:AnnotationProperty ;
+                  rdfs:range xsd:string .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#link_arrowHead
+gizmo:link_arrowHead rdf:type owl:AnnotationProperty ;
+                     rdfs:range xsd:string .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#link_arrowHead_fillColor
+gizmo:link_arrowHead_fillColor rdf:type owl:AnnotationProperty ;
+                               rdfs:range xsd:string .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#link_arrowHead_renderingType
+gizmo:link_arrowHead_renderingType rdf:type owl:AnnotationProperty ;
+                                   rdfs:range xsd:string .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#link_arrowHead_scaleFactor
+gizmo:link_arrowHead_scaleFactor rdf:type owl:AnnotationProperty ;
+                                 rdfs:range xsd:double .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#link_arrowHead_strokeColor
+gizmo:link_arrowHead_strokeColor rdf:type owl:AnnotationProperty ;
+                                 rdfs:range xsd:string .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#link_arrowHead_strokeStyle
+gizmo:link_arrowHead_strokeStyle rdf:type owl:AnnotationProperty ;
+                                 rdfs:range xsd:string .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#link_arrowHead_strokeWidth
+gizmo:link_arrowHead_strokeWidth rdf:type owl:AnnotationProperty ;
+                                 rdfs:range xsd:positiveInteger .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#link_hoverColor
+gizmo:link_hoverColor rdf:type owl:AnnotationProperty ;
+                      rdfs:range xsd:string .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#link_renderingType
+gizmo:link_renderingType rdf:type owl:AnnotationProperty ;
+                         rdfs:range xsd:string .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#link_strokeColor
+gizmo:link_strokeColor rdf:type owl:AnnotationProperty ;
+                       rdfs:range xsd:string .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#link_strokeStyle
+gizmo:link_strokeStyle rdf:type owl:AnnotationProperty ;
+                       rdfs:range xsd:string .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#link_strokeWidth
+gizmo:link_strokeWidth rdf:type owl:AnnotationProperty ;
+                       rdfs:range xsd:positiveInteger .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#overWriteOffset
+gizmo:overWriteOffset rdf:type owl:AnnotationProperty ;
+                      rdfs:range xsd:positiveInteger .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#radius
+gizmo:radius rdf:type owl:AnnotationProperty ;
+             rdfs:range xsd:positiveInteger .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#renderingLayer
+gizmo:renderingLayer rdf:type owl:AnnotationProperty ;
+                     rdfs:range xsd:string .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#renderingType
+gizmo:renderingType rdf:type owl:AnnotationProperty ;
+                    rdfs:range xsd:string .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#roundedCorner
+gizmo:roundedCorner rdf:type owl:AnnotationProperty ;
+                    rdfs:range xsd:int .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#segmentAdjustmentMargin
+gizmo:segmentAdjustmentMargin rdf:type owl:AnnotationProperty ;
+                              rdfs:range xsd:integer .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#segmentHeight
+gizmo:segmentHeight rdf:type owl:AnnotationProperty ;
+                    rdfs:range xsd:integer .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#segmentLabelSize
+gizmo:segmentLabelSize rdf:type owl:AnnotationProperty ;
+                       rdfs:range xsd:integer .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#segmentOffset
+gizmo:segmentOffset rdf:type owl:AnnotationProperty ;
+                    rdfs:range xsd:integer .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#segmentStartAngle
+gizmo:segmentStartAngle rdf:type owl:AnnotationProperty ;
+                        rdfs:range xsd:integer .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#segmentType
+gizmo:segmentType rdf:type owl:AnnotationProperty ;
+                  rdfs:range xsd:string .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#showLabelInSegment
+gizmo:showLabelInSegment rdf:type owl:AnnotationProperty ;
+                         rdfs:range xsd:boolean .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#strokeColor
+gizmo:strokeColor rdf:type owl:AnnotationProperty ;
+                  rdfs:range xsd:string .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#strokeElement
+gizmo:strokeElement rdf:type owl:AnnotationProperty ;
+                    rdfs:range xsd:boolean .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#strokeStyle
+gizmo:strokeStyle rdf:type owl:AnnotationProperty ;
+                  rdfs:range xsd:string .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#strokeWidth
+gizmo:strokeWidth rdf:type owl:AnnotationProperty ;
+                  rdfs:range xsd:positiveInteger .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#targetElement
+gizmo:targetElement rdf:type owl:AnnotationProperty ;
+                    rdfs:comment """Sets the target element for the annotation
+e.g. owl:Class""" .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#umlElementScaleFactor
+gizmo:umlElementScaleFactor rdf:type owl:AnnotationProperty ;
+                            rdfs:range xsd:double .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#umlHeightOffset
+gizmo:umlHeightOffset rdf:type owl:AnnotationProperty ;
+                      rdfs:range xsd:integer .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#umlMarginBetween
+gizmo:umlMarginBetween rdf:type owl:AnnotationProperty ;
+                       rdfs:range xsd:integer .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#umlMarginLeft
+gizmo:umlMarginLeft rdf:type owl:AnnotationProperty ;
+                    rdfs:range xsd:integer .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#umlMarginRight
+gizmo:umlMarginRight rdf:type owl:AnnotationProperty ;
+                     rdfs:range xsd:integer .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#umlOffsetToAfterLastElement
+gizmo:umlOffsetToAfterLastElement rdf:type owl:AnnotationProperty ;
+                                  rdfs:range xsd:integer .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#umlOffsetToHeader
+gizmo:umlOffsetToHeader rdf:type owl:AnnotationProperty ;
+                        rdfs:range xsd:integer .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#umlShapeAdjustsShapeSize
+gizmo:umlShapeAdjustsShapeSize rdf:type owl:AnnotationProperty ;
+                               rdfs:range xsd:boolean .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#umlShowDatatypeProperty
+gizmo:umlShowDatatypeProperty rdf:type owl:AnnotationProperty ;
+                              rdfs:range xsd:boolean .
+
+
+###  http://visualdataweb.org/ontologies/gizmo-core#width
+gizmo:width rdf:type owl:AnnotationProperty ;
+            rdfs:range xsd:positiveInteger .
+
+
+###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi

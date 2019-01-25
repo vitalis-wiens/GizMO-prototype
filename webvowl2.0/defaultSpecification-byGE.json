@@ -1,0 +1,149 @@
+{
+"header" : {
+"baseIris" : [ "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+"prefixList" : {
+"owl" : "http://www.w3.org/2002/07/owl#",
+"rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+"gizmo" : "http://visualdataweb.org/ontologies/gizmo-core#",
+"defaultSpecification" : "http://visualdataweb.org/ontologies/defaultSpecification",
+"xsd" : "http://www.w3.org/2001/XMLSchema#",
+"xml" : "http://www.w3.org/XML/1998/namespace",
+"rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+},
+"iri" : "http://visualdataweb.org/ontologies/defaultSpecification"
+},
+"gizmoAnnotations" : [ 
+{
+"iri" : "http://visualdataweb.org/ontologies/defaultSpecification#collapsedMultiLinkProperty",
+"annotations" : {
+"renderingType" : "rect",
+"bgColor" : "#c4c4c4",
+"roundedCorner" : "0,0",
+"fontSizeOverWritesShapeSize" : "false",
+"width" : "60",
+"height" : "20",
+"strokeElement" : "false",
+"link_strokeStyle" : "dashed",
+"link_strokeWidth" : "2px",
+"link_strokeColor" : "#000000",
+"link_hoverColor" : "undefined",
+"link_arrowHead" : "false",
+"link_renderingType" : "line",
+"fontFamily" : "Helvetica,Arial,sans-serif",
+"fontColor" : "#000000",
+"fontSize" : "12px",
+"hoverInCursor" : "pointer",
+"hoverInColor" : "#ff0000",
+"hoverInStrokeColor" : "#ff0000",
+"hoverInFontColor" : "#000000",
+"hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+"hoverInFontSize" : "12px",
+"targetElement" : "defaultSpecification:collapsedMultiLinkProperty"
+}
+},{
+"iri" : "http://visualdataweb.org/ontologies/defaultSpecification#collapsedDatatypes",
+"annotations" : {
+"renderingType" : "inshape",
+"inshapeType" : "indicator",
+"inshapeIndicatorOffset" : "0",
+"inshapeStrokeType" : "solid",
+"inshapeStrokeColor" : "#00fff9",
+"inshapeStrokeStrokeWidth" : "2",
+"targetElement" : "defaultSpecification:collapsedDatatypes"
+}
+},{
+"iri" : "http://visualdataweb.org/ontologies/defaultSpecification#collapsedLoops",
+"annotations" : {
+"renderingType" : "inshape",
+"inshapeType" : "indicator",
+"inshapeIndicatorOffset" : "0",
+"inshapeStrokeType" : "dashed",
+"inshapeStrokeColor" : "#166aea",
+"inshapeStrokeStrokeWidth" : "2",
+"targetElement" : "defaultSpecification:collapsedLoops"
+}
+},{
+"iri" : "http://visualdataweb.org/ontologies/defaultSpecification#defaultNodeElement",
+"annotations" : {
+"renderingType" : "ellipse",
+"bgColor" : "#cccccc",
+"defaultCollapsedDatatypes" : "false",
+"allowDatatypeCollapseExpand" : "true",
+"defaultCollapsedLoops" : "false",
+"allowLoopCollapseExpand" : "true",
+"fontSizeOverWritesShapeSize" : "true",
+"overWriteOffset" : "25",
+"strokeElement" : "true",
+"strokeStyle" : "solid",
+"strokeWidth" : "2px",
+"strokeColor" : "#ffffff",
+"fontFamily" : "Helvetica,Arial,sans-serif",
+"fontColor" : "#000000",
+"fontSize" : "12px",
+"hoverInCursor" : "pointer",
+"hoverInColor" : "#ff0000",
+"hoverInStrokeColor" : "#ff0000",
+"hoverInFontColor" : "#000000",
+"hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+"hoverInFontSize" : "12px",
+"targetElement" : "defaultSpecification:defaultNodeElement"
+}
+},{
+"iri" : "http://visualdataweb.org/ontologies/defaultSpecification#defaultPropertyElement",
+"annotations" : {
+"renderingType" : "ellipse",
+"bgColor" : "#cbcbcb",
+"fontSizeOverWritesShapeSize" : "true",
+"overWriteOffset" : "25",
+"strokeElement" : "true",
+"strokeStyle" : "solid",
+"strokeWidth" : "2px",
+"strokeColor" : "#000000",
+"link_strokeStyle" : "solid",
+"link_strokeWidth" : "2px",
+"link_strokeColor" : "#000000",
+"link_hoverColor" : "#ff0000",
+"link_arrowHead" : "true",
+"link_renderingType" : "line",
+"link_arrowHead_renderingType" : "triangle",
+"link_arrowHead_scaleFactor" : "1.0",
+"link_arrowHead_strokeWidth" : "2px",
+"link_arrowHead_strokeStyle" : "solid",
+"link_arrowHead_strokeColor" : "#000000",
+"link_arrowHead_fillColor" : "#000000",
+"fontFamily" : "Helvetica,Arial,sans-serif",
+"fontColor" : "#000000",
+"fontSize" : "12px",
+"hoverInCursor" : "pointer",
+"hoverInColor" : "#ff0000",
+"hoverInStrokeColor" : "#ff0000",
+"hoverInFontColor" : "#000000",
+"hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+"hoverInFontSize" : "12px",
+"targetElement" : "defaultSpecification:defaultPropertyElement"
+}
+},{
+"iri" : "http://visualdataweb.org/ontologies/defaultSpecification#defaultDatatypeElement",
+"annotations" : {
+"renderingType" : "rect",
+"bgColor" : "#ff8d00",
+"roundedCorner" : "3,10",
+"fontSizeOverWritesShapeSize" : "true",
+"overWriteOffset" : "12",
+"strokeElement" : "true",
+"strokeStyle" : "solid",
+"strokeWidth" : "2px",
+"strokeColor" : "#000000",
+"fontFamily" : "Helvetica,Arial,sans-serif",
+"fontColor" : "#000000",
+"fontSize" : "12px",
+"hoverInCursor" : "pointer",
+"hoverInColor" : "#ff0000",
+"hoverInStrokeColor" : "#ff0000",
+"hoverInFontColor" : "#000000",
+"hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+"hoverInFontSize" : "12px",
+"targetElement" : "defaultSpecification:defaultDatatypeElement"
+}
+}]
+}

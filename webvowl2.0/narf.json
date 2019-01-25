@@ -1,0 +1,88 @@
+{
+  "_comment" : "Just a test ",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/2000/01/rdf-schema", "http://visualdataweb.de/test_cases_vowl/ontology/72" ],
+    "iri" : "http://visualdataweb.org/ontologies/narf",
+    "prefixList" : {
+      "owl" : "http://www.w3.org/2002/07/owl#",
+      "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "narf" : "http://visualdataweb.org/ontologies/narf#",
+      "xsd" : "http://www.w3.org/2001/XMLSchema#",
+      "xml" : "http://www.w3.org/XML/1998/namespace",
+      "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+    }
+  },
+
+  "class" : [
+    { "id" : "c1",  "type" : "owl:Class" }
+    ,{ "id" : "s1",  "type" : "owl:Class" }
+    ,{ "id" : "c2",  "type" : "owl:Thing" }
+    ,{ "id" : "c3",  "type" : "owl:Thing" }
+    ,{ "id" : "c4",  "type" : "owl:Class" }
+    ,{ "id" : "d1",  "type" : "rdfs:Literal" }
+    ,{ "id" : "d2",  "type" : "rdfs:Literal" }
+  ],
+
+  "classAttribute" : [
+    { "label" : "Long Text For ellipse",         "id" : "c1",
+      "iri" : "http://visualdataweb.org/ontologies/narf#longElement",
+      "baseIri" : "http://visualdataweb.org/ontologies/narf"
+    },
+
+    { "label" : "SingleElement",         "id" : "s1",
+      "iri" : "http://visualdataweb.org/ontologies/narf#singleElement",
+      "baseIri" : "http://visualdataweb.org/ontologies/narf"
+    }
+
+    ,{ "label" : "Thing",         "id" : "c2",
+      "iri" : "http://www.w3.org/2002/07/owl#Thing",
+      "baseIri" : "http://www.w3.org/2002/07/owl"
+    }
+    ,{ "label" : "Literal",         "id" : "d1",
+      "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri" : "http://www.w3.org/2000/01/rdf-schema"
+    }
+  ,{ "label" : "Literal",         "id" : "d2",
+      "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri" : "http://www.w3.org/2000/01/rdf-schema"
+    }
+
+  ,{ "label" : "ClassA",         "id" : "c4",
+      "iri" : "http://visualdataweb.org/ontologies/narf#Class",
+      "baseIri" : "http://visualdataweb.org/ontologies/narf"
+    }
+  ,{ "label" : "Thing",         "id" : "c3",
+      "iri" : "http://www.w3.org/2002/07/owl#Thing",
+      "baseIri" : "http://www.w3.org/2002/07/owl"
+    }
+
+  ],
+
+  "property" : [
+
+   { "id" : "p2",  "type" : "owl:datatypeProperty"}
+   ,{ "id" : "l1",  "type" : "owl:objectProperty"}
+   ,{ "id" : "p4",  "type" : "owl:datatypeProperty"}
+   ,{ "id" : "p5",  "type" : "rdfs:subClassOf"}
+  ,{ "id" : "p3",  "type" : "owl:objectProperty"}
+
+  ],
+
+  "propertyAttribute" : [
+
+    { "id":"l1" ,"iri" : "http://visualdataweb.org/ontologies/narf#loop",  "domain" : "c2",  "range" : "c2", "label": "loop" },
+    { "id":"p2" ,    "iri" : "http://visualdataweb.org/ontologies/narf#qwe", "domain" : "c2",  "range" : "d1", "label": "qwe" },
+    { "id":"p3" ,    "iri" : "http://visualdataweb.org/ontologies/narf#Meh", "domain" : "c4",  "range" : "c3", "label": "meh" },
+    { "id":"p4" ,    "iri" : "http://visualdataweb.org/ontologies/narf#ewq", "domain" : "c2",  "range" : "d2", "label": "ewq" },
+    { "id":"p5" ,    "iri" : "http://www.w3.org/2000/01/rdf-schema#subClassOf", "domain" : "c1",  "range" : "c4", "label": "subClass of" }
+
+
+
+
+
+
+
+
+  ]
+}

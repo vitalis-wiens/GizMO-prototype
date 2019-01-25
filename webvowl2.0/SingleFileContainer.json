@@ -1,0 +1,2437 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en" ],
+    "baseIris" : [ "http://purl.org/muto/core", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://purl.org/dc/terms", "http://www.w3.org/2001/XMLSchema", "http://rdfs.org/sioc/ns", "http://www.w3.org/2004/02/skos/core" ],
+    "prefixList" : {
+      "owl" : "http://www.w3.org/2002/07/owl#",
+      "gizmo" : "http://visualdataweb.org/ontologies/gizmo-core#",
+      "gizmo_umlNotation" : "http://visualdataweb.org/ontologies/gizmo_umlNotation#",
+      "gizmo_vowlNotation" : "http://visualdataweb.org/ontologies/vowl_notation#",
+      "dcterms" : "http://purl.org/dc/terms/",
+      "xsd" : "http://www.w3.org/2001/XMLSchema#",
+      "undefined_container_0" : "http://example.org/undefined_container_0#",
+      "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+      "view_1" : "http://example.org/view_1#",
+      "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "sioc" : "http://rdfs.org/sioc/ns#",
+      "view_0" : "http://example.org/view_0#",
+      "skos" : "http://www.w3.org/2004/02/skos/core#",
+      "" : "http://www.semanticweb.org/owl/owlapi/turtle#",
+      "dc" : "http://purl.org/dc/elements/1.1/",
+      "xml" : "http://www.w3.org/XML/1998/namespace",
+      "foaf" : "http://xmlns.com/foaf/0.1/"
+    },
+    "iri" : "http://example.org/undefined_container_0"
+  },
+  "namespace" : [ ],
+  "gizmoAnnotations" : [ {
+    "iri" : "http://example.org/view_0#element_24",
+    "annotations" : {
+      "visible" : "false",
+      "annotationIndividual" : "true",
+      "postion_x" : "0.0",
+      "postion_y" : "0.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_23",
+    "annotations" : {
+      "visible" : "false",
+      "annotationIndividual" : "true",
+      "postion_x" : "0.0",
+      "postion_y" : "0.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_26",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "1242.68",
+      "postion_y" : "417.51"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_25",
+    "annotations" : {
+      "visible" : "false",
+      "annotationIndividual" : "true",
+      "postion_x" : "0.0",
+      "postion_y" : "0.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_28",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "1009.29",
+      "postion_y" : "293.96"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_27",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "1195.7",
+      "postion_y" : "-94.12"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_29",
+    "annotations" : {
+      "visible" : "false",
+      "annotationIndividual" : "true",
+      "postion_x" : "0.0",
+      "postion_y" : "0.0"
+    }
+  }, {
+    "iri" : "http://visualdataweb.org/ontologies/vowl_notation#owlequivalentClass",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "strokeStyle" : "dotted",
+      "hoverInStrokeColor" : "#000000",
+      "renderingType" : "circle",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "allowDatatypeCollapseExpand" : "true",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "true",
+      "bgColor" : "#aaccff",
+      "defaultCollapsedLoops" : "false",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "false",
+      "fontSize" : "12px",
+      "defaultCollapsedDatatypes" : "false",
+      "allowLoopCollapseExpand" : "true",
+      "hoverInFontColor" : "#000000",
+      "strokeColor" : "#ffffff",
+      "radius" : "50",
+      "targetElement" : "http://www.w3.org/2002/07/owl#equivalentClass",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_20",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "1051.37",
+      "postion_y" : "73.85"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_22",
+    "annotations" : {
+      "visible" : "false",
+      "annotationIndividual" : "true",
+      "postion_x" : "0.0",
+      "postion_y" : "0.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_21",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "1320.09",
+      "postion_y" : "-191.61"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_41",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "1306.36",
+      "postion_y" : "111.66"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_40",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "1361.03",
+      "postion_y" : "395.8"
+    }
+  }, {
+    "iri" : "http://visualdataweb.org/ontologies/vowl_notation#collapsedDatatypes",
+    "annotations" : {
+      "inshapeType" : "indicator",
+      "renderingType" : "inshape",
+      "inshapeStrokeStrokeWidth" : "2",
+      "inshapeStrokeType" : "solid",
+      "targetElement" : "http://visualdataweb.org/ontologies/vowl_notation#collapsedDatatypes",
+      "inshapeIndicatorOffset" : "0",
+      "inshapeStrokeColor" : "#ff0000"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_13",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "1635.74",
+      "postion_y" : "294.01"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_12",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "912.96",
+      "postion_y" : "193.57"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_15",
+    "annotations" : {
+      "visible" : "false",
+      "annotationIndividual" : "true",
+      "postion_x" : "0.0",
+      "postion_y" : "0.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_14",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "1737.28",
+      "postion_y" : "430.09"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_17",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "1017.62",
+      "postion_y" : "534.05"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_16",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "780.44",
+      "postion_y" : "294.33"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_19",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "1243.81",
+      "postion_y" : "749.82"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_18",
+    "annotations" : {
+      "visible" : "false",
+      "annotationIndividual" : "true",
+      "postion_x" : "0.0",
+      "postion_y" : "0.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_11",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "1522.75",
+      "postion_y" : "155.94"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_10",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "1322.47",
+      "postion_y" : "-67.09"
+    }
+  }, {
+    "iri" : "http://visualdataweb.org/ontologies/vowl_notation#owlDatatypeProperty",
+    "annotations" : {
+      "link_arrowHead_scaleFactor" : "1.0",
+      "link_arrowHead_strokeStyle" : "solid",
+      "renderingType" : "rect",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "true",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "link_strokeStyle" : "solid",
+      "bgColor" : "#99cc66",
+      "fontSizeOverWritesShapeSize" : "true",
+      "hoverInColor" : "#ff0000",
+      "link_strokeColor" : "#000000",
+      "link_strokeWidth" : "2px",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "link_arrowHead_fillColor" : "#000000",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_arrowHead_strokeColor" : "#000000",
+      "link_renderingType" : "line",
+      "link_hoverColor" : "#ff0000",
+      "strokeElement" : "false",
+      "link_arrowHead_renderingType" : "triangle",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "overWriteOffset" : "11",
+      "fontColor" : "#000000",
+      "link_arrowHead_strokeWidth" : "2px"
+    }
+  }, {
+    "iri" : "http://visualdataweb.org/ontologies/gizmo_umlNotation#collapsedDatatypes",
+    "annotations" : {
+      "umlMarginBetween" : "2",
+      "umlDrawHeaderLine" : "true",
+      "umlMarginLeft" : "5",
+      "umlPropertyAlign" : "left",
+      "renderingType" : "umlStyle",
+      "umlHeaderAlign" : "center",
+      "umlOffsetToHeader" : "15",
+      "umlElementScaleFactor" : "1.0",
+      "umlOffsetToAfterLastElement" : "-5",
+      "umlShapeAdjustsShapeSize" : "false",
+      "umlHeightOffset" : "5",
+      "umlShowDatatypeProperty" : "false",
+      "umlMarginRight" : "5",
+      "targetElement" : "http://visualdataweb.org/ontologies/gizmo_umlNotation#collapsedDatatypes"
+    }
+  }, {
+    "iri" : "http://visualdataweb.org/ontologies/gizmo_umlNotation#defaultNodeElement",
+    "annotations" : {
+      "strokeWidth" : "1px",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#ff0000",
+      "renderingType" : "rect",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "allowDatatypeCollapseExpand" : "true",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "true",
+      "bgColor" : "#ffffff",
+      "defaultCollapsedLoops" : "false",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "true",
+      "roundedCorner" : "10,10",
+      "fontSize" : "12px",
+      "defaultCollapsedDatatypes" : "false",
+      "hoverInFontColor" : "#000000",
+      "allowLoopCollapseExpand" : "true",
+      "strokeColor" : "#000000",
+      "overWriteOffset" : "25",
+      "targetElement" : "http://visualdataweb.org/ontologies/gizmo_umlNotation#defaultNodeElement",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_30",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "1333.13",
+      "postion_y" : "-26.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_34",
+    "annotations" : {
+      "visible" : "false",
+      "annotationIndividual" : "true",
+      "postion_x" : "292.24",
+      "postion_y" : "467.75"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_33",
+    "annotations" : {
+      "visible" : "false",
+      "annotationIndividual" : "true",
+      "postion_x" : "1600.4",
+      "postion_y" : "278.37"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_32",
+    "annotations" : {
+      "visible" : "false",
+      "annotationIndividual" : "true",
+      "postion_x" : "0.0",
+      "postion_y" : "0.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_31",
+    "annotations" : {
+      "visible" : "false",
+      "annotationIndividual" : "true",
+      "postion_x" : "1404.41",
+      "postion_y" : "282.46"
+    }
+  }, {
+    "iri" : "http://visualdataweb.org/ontologies/vowl_notation#defaultPropertyElement",
+    "annotations" : {
+      "link_arrowHead_scaleFactor" : "1.0",
+      "link_arrowHead_strokeStyle" : "solid",
+      "renderingType" : "rect",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "true",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "link_strokeStyle" : "solid",
+      "bgColor" : "#aaccff",
+      "fontSizeOverWritesShapeSize" : "true",
+      "hoverInColor" : "#ff0000",
+      "link_strokeColor" : "#000000",
+      "link_strokeWidth" : "2px",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "http://visualdataweb.org/ontologies/vowl_notation#defaultPropertyElement",
+      "link_arrowHead_fillColor" : "#000000",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_arrowHead_strokeColor" : "#000000",
+      "link_renderingType" : "line",
+      "link_hoverColor" : "#ff0000",
+      "strokeElement" : "false",
+      "link_arrowHead_renderingType" : "triangle",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "overWriteOffset" : "11",
+      "fontColor" : "#000000",
+      "link_arrowHead_strokeWidth" : "2px"
+    }
+  }, {
+    "iri" : "http://visualdataweb.org/ontologies/vowl_notation#owlClass",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#000000",
+      "renderingType" : "circle",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "allowDatatypeCollapseExpand" : "true",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "true",
+      "bgColor" : "#aaccff",
+      "defaultCollapsedLoops" : "false",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "false",
+      "fontSize" : "12px",
+      "defaultCollapsedDatatypes" : "false",
+      "hoverInFontColor" : "#000000",
+      "allowLoopCollapseExpand" : "true",
+      "strokeColor" : "#000000",
+      "radius" : "50",
+      "targetElement" : "http://www.w3.org/2002/07/owl#Class",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_40",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "1349.77",
+      "postion_y" : "643.11"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#triplePositions_25",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_0#element_1",
+      "predicateDescription" : "http://example.org/view_0#element_41",
+      "predicateElement" : "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://rdfs.org/sioc/ns#Item",
+      "subjectElement" : "http://purl.org/muto/core#Tagging",
+      "objectDescription" : "http://example.org/view_0#element_30"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_41",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "1505.5",
+      "postion_y" : "676.6"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#triplePositions_24",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_0#element_19",
+      "predicateDescription" : "http://example.org/view_0#element_40",
+      "predicateElement" : "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://purl.org/muto/core#Tagging",
+      "subjectElement" : "http://purl.org/muto/core#PrivateTagging",
+      "objectDescription" : "http://example.org/view_0#element_1"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#triplePositions_23",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_0#element_3",
+      "predicateDescription" : "http://example.org/view_0#element_39",
+      "predicateElement" : "http://purl.org/muto/core#tagCreated",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "subjectElement" : "http://purl.org/muto/core#Tag",
+      "objectDescription" : "http://example.org/view_0#element_6"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_38",
+    "annotations" : {
+      "visible" : "false",
+      "annotationIndividual" : "true",
+      "postion_x" : "0.0",
+      "postion_y" : "0.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_37",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "1083.89",
+      "postion_y" : "407.01"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_36",
+    "annotations" : {
+      "visible" : "false",
+      "annotationIndividual" : "true",
+      "postion_x" : "1428.63",
+      "postion_y" : "83.78"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_35",
+    "annotations" : {
+      "visible" : "false",
+      "annotationIndividual" : "true",
+      "postion_x" : "1332.95",
+      "postion_y" : "157.34"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_39",
+    "annotations" : {
+      "visible" : "false",
+      "annotationIndividual" : "true",
+      "postion_x" : "736.89",
+      "postion_y" : "380.34"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_23",
+    "annotations" : {
+      "visible" : "false",
+      "annotationIndividual" : "true",
+      "postion_x" : "0.0",
+      "postion_y" : "0.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_22",
+    "annotations" : {
+      "visible" : "false",
+      "annotationIndividual" : "true",
+      "postion_x" : "0.0",
+      "postion_y" : "0.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_21",
+    "annotations" : {
+      "visible" : "false",
+      "annotationIndividual" : "true",
+      "postion_x" : "1616.2",
+      "postion_y" : "30.06"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_20",
+    "annotations" : {
+      "visible" : "false",
+      "annotationIndividual" : "true",
+      "postion_x" : "1345.22",
+      "postion_y" : "34.99"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_35",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "1549.13",
+      "postion_y" : "400.89"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_34",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "996.88",
+      "postion_y" : "400.43"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_37",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "969.5",
+      "postion_y" : "452.71"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_36",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "1182.64",
+      "postion_y" : "8.46"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_39",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "1239.1",
+      "postion_y" : "313.52"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_38",
+    "annotations" : {
+      "visible" : "false",
+      "annotationIndividual" : "true",
+      "postion_x" : "0.0",
+      "postion_y" : "0.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#triplePositions_7",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_1#element_3",
+      "predicateDescription" : "http://example.org/view_1#element_22",
+      "predicateElement" : "http://purl.org/muto/core#tagOf",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://purl.org/muto/core#Tagging",
+      "subjectElement" : "http://purl.org/muto/core#Tag",
+      "objectDescription" : "http://example.org/view_1#element_1"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#triplePositions_6",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_1#element_10",
+      "predicateDescription" : "http://example.org/view_1#element_21",
+      "predicateElement" : "http://rdfs.org/sioc/ns#has_creator",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://www.w3.org/2002/07/owl#Thing",
+      "subjectElement" : "http://www.w3.org/2002/07/owl#Thing",
+      "objectDescription" : "http://example.org/view_1#element_10"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#triplePositions_9",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_1#element_1",
+      "predicateDescription" : "http://example.org/view_1#element_24",
+      "predicateElement" : "http://purl.org/muto/core#hasTag",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://purl.org/muto/core#Tag",
+      "subjectElement" : "http://purl.org/muto/core#Tagging",
+      "objectDescription" : "http://example.org/view_1#element_3"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#triplePositions_8",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_1#element_1",
+      "predicateDescription" : "http://example.org/view_1#element_23",
+      "predicateElement" : "http://purl.org/muto/core#hasCreator",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://rdfs.org/sioc/ns#UserAccount",
+      "subjectElement" : "http://purl.org/muto/core#Tagging",
+      "objectDescription" : "http://example.org/view_1#element_8"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_31",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "1604.4",
+      "postion_y" : "476.59"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_30",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "1555.26",
+      "postion_y" : "816.8"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_33",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "1274.64",
+      "postion_y" : "47.12"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_32",
+    "annotations" : {
+      "visible" : "false",
+      "annotationIndividual" : "true",
+      "postion_x" : "0.0",
+      "postion_y" : "0.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_27",
+    "annotations" : {
+      "visible" : "false",
+      "annotationIndividual" : "true",
+      "postion_x" : "1504.51",
+      "postion_y" : "121.66"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_26",
+    "annotations" : {
+      "visible" : "false",
+      "annotationIndividual" : "true",
+      "postion_x" : "438.55",
+      "postion_y" : "651.85"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#viewDefinitions",
+    "annotations" : {
+      "graphZoomFactor" : "0.61",
+      "viewUsesNotation" : "http://visualdataweb.org/ontologies/vowl_notation",
+      "graphTranslation_Y" : "146.24",
+      "graphTranslation_X" : "153.46",
+      "annotationIndividual" : "true",
+      "forceLayoutActive" : "true"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#triplePositions_1",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_1#element_8",
+      "predicateDescription" : "http://example.org/view_1#element_7",
+      "predicateElement" : "http://purl.org/muto/core#creatorOf",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://purl.org/muto/core#Tagging",
+      "subjectElement" : "http://rdfs.org/sioc/ns#UserAccount",
+      "objectDescription" : "http://example.org/view_1#element_1"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_25",
+    "annotations" : {
+      "visible" : "false",
+      "annotationIndividual" : "true",
+      "postion_x" : "0.0",
+      "postion_y" : "0.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_24",
+    "annotations" : {
+      "visible" : "false",
+      "annotationIndividual" : "true",
+      "postion_x" : "0.0",
+      "postion_y" : "0.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#triplePositions_0",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_1#element_1",
+      "predicateDescription" : "http://example.org/view_1#element_0",
+      "predicateElement" : "http://purl.org/muto/core#taggedResource",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://www.w3.org/2002/07/owl#Thing",
+      "subjectElement" : "http://purl.org/muto/core#Tagging",
+      "objectDescription" : "http://example.org/view_1#element_2"
+    }
+  }, {
+    "iri" : "http://visualdataweb.org/ontologies/gizmo_umlNotation#collapsedMultiLinkProperty",
+    "annotations" : {
+      "hoverInStrokeColor" : "#ff0000",
+      "renderingType" : "rect",
+      "link_renderingType" : "line",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "false",
+      "link_hoverColor" : "undefined",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "false",
+      "link_strokeStyle" : "dashed",
+      "bgColor" : "#c4c4c4",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "false",
+      "width" : "60",
+      "roundedCorner" : "0,0",
+      "link_strokeWidth" : "2px",
+      "fontSize" : "12px",
+      "link_strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "http://visualdataweb.org/ontologies/gizmo_umlNotation#collapsedMultiLinkProperty",
+      "fontColor" : "#000000",
+      "height" : "20"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#triplePositions_3",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_1#element_2",
+      "predicateDescription" : "http://example.org/view_1#element_15",
+      "predicateElement" : "http://purl.org/muto/core#hasAccess",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://purl.org/muto/core#Tagging",
+      "subjectElement" : "http://www.w3.org/2002/07/owl#Thing",
+      "objectDescription" : "http://example.org/view_1#element_1"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#triplePositions_2",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_1#element_10",
+      "predicateDescription" : "http://example.org/view_1#element_9",
+      "predicateElement" : "http://purl.org/dc/terms/modified",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "subjectElement" : "http://www.w3.org/2002/07/owl#Thing",
+      "objectDescription" : "http://example.org/view_1#element_11"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#triplePositions_5",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_1#element_16",
+      "predicateDescription" : "http://example.org/view_1#element_18",
+      "predicateElement" : "http://purl.org/muto/core#meaningOf",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://purl.org/muto/core#Tag",
+      "subjectElement" : "http://www.w3.org/2002/07/owl#Thing",
+      "objectDescription" : "http://example.org/view_1#element_3"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_29",
+    "annotations" : {
+      "visible" : "false",
+      "annotationIndividual" : "true",
+      "postion_x" : "0.0",
+      "postion_y" : "0.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_28",
+    "annotations" : {
+      "visible" : "false",
+      "annotationIndividual" : "true",
+      "postion_x" : "766.92",
+      "postion_y" : "429.23"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#triplePositions_4",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_1#element_5",
+      "predicateDescription" : "http://example.org/view_1#element_17",
+      "predicateElement" : "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://purl.org/muto/core#Tag",
+      "subjectElement" : "http://purl.org/muto/core#AutoTag",
+      "objectDescription" : "http://example.org/view_1#element_3"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_12",
+    "annotations" : {
+      "visible" : "false",
+      "annotationIndividual" : "true",
+      "postion_x" : "613.59",
+      "postion_y" : "477.9"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_11",
+    "annotations" : {
+      "visible" : "false",
+      "annotationIndividual" : "true",
+      "postion_x" : "1687.75",
+      "postion_y" : "454.04"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_10",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "1525.53",
+      "postion_y" : "180.02"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#triplePositions_11",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_0#element_3",
+      "predicateDescription" : "http://example.org/view_0#element_26",
+      "predicateElement" : "http://purl.org/muto/core#previousTag",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://purl.org/muto/core#Tag",
+      "subjectElement" : "http://purl.org/muto/core#Tag",
+      "objectDescription" : "http://example.org/view_0#element_3"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#triplePositions_10",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_0#element_1",
+      "predicateDescription" : "http://example.org/view_0#element_25",
+      "predicateElement" : "http://purl.org/muto/core#grantAccess",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://www.w3.org/2002/07/owl#Thing",
+      "subjectElement" : "http://purl.org/muto/core#Tagging",
+      "objectDescription" : "http://example.org/view_0#element_2"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#viewDefinitions",
+    "annotations" : {
+      "graphZoomFactor" : "0.61",
+      "viewUsesNotation" : "http://visualdataweb.org/ontologies/gizmo_umlNotation",
+      "graphTranslation_Y" : "136.99",
+      "graphTranslation_X" : "168.57",
+      "annotationIndividual" : "true",
+      "forceLayoutActive" : "true"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#triplePositions_25",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_1#element_1",
+      "predicateDescription" : "http://example.org/view_1#element_41",
+      "predicateElement" : "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://rdfs.org/sioc/ns#Item",
+      "subjectElement" : "http://purl.org/muto/core#Tagging",
+      "objectDescription" : "http://example.org/view_1#element_30"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_16",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "1103.07",
+      "postion_y" : "59.13"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#triplePositions_24",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_1#element_19",
+      "predicateDescription" : "http://example.org/view_1#element_40",
+      "predicateElement" : "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://purl.org/muto/core#Tagging",
+      "subjectElement" : "http://purl.org/muto/core#PrivateTagging",
+      "objectDescription" : "http://example.org/view_1#element_1"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_15",
+    "annotations" : {
+      "visible" : "false",
+      "annotationIndividual" : "true",
+      "postion_x" : "0.0",
+      "postion_y" : "0.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_14",
+    "annotations" : {
+      "visible" : "false",
+      "annotationIndividual" : "true",
+      "postion_x" : "1510.15",
+      "postion_y" : "296.2"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_13",
+    "annotations" : {
+      "visible" : "false",
+      "annotationIndividual" : "true",
+      "postion_x" : "1378.43",
+      "postion_y" : "75.37"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_19",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "1449.83",
+      "postion_y" : "510.29"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_18",
+    "annotations" : {
+      "visible" : "false",
+      "annotationIndividual" : "true",
+      "postion_x" : "0.0",
+      "postion_y" : "0.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_17",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "998.27",
+      "postion_y" : "518.51"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_9",
+    "annotations" : {
+      "visible" : "false",
+      "annotationIndividual" : "true",
+      "postion_x" : "1610.64",
+      "postion_y" : "346.53"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_8",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "1293.2",
+      "postion_y" : "619.28"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_7",
+    "annotations" : {
+      "visible" : "false",
+      "annotationIndividual" : "true",
+      "postion_x" : "0.0",
+      "postion_y" : "0.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_6",
+    "annotations" : {
+      "visible" : "false",
+      "annotationIndividual" : "true",
+      "postion_x" : "545.03",
+      "postion_y" : "393.37"
+    }
+  }, {
+    "iri" : "http://visualdataweb.org/ontologies/vowl_notation#rdfsResource",
+    "annotations" : {
+      "hoverInStrokeColor" : "#000000",
+      "renderingType" : "circle",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "allowDatatypeCollapseExpand" : "true",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "false",
+      "bgColor" : "#ffaaee",
+      "defaultCollapsedLoops" : "false",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "false",
+      "fontSize" : "12px",
+      "defaultCollapsedDatatypes" : "false",
+      "allowLoopCollapseExpand" : "true",
+      "hoverInFontColor" : "#000000",
+      "radius" : "50",
+      "targetElement" : "http://www.w3.org/2000/01/rdf-schema#Resource",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#triplePositions_21",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_1#element_3",
+      "predicateDescription" : "http://example.org/view_1#element_37",
+      "predicateElement" : "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://www.w3.org/2004/02/skos/core#Concept",
+      "subjectElement" : "http://purl.org/muto/core#Tag",
+      "objectDescription" : "http://example.org/view_1#element_4"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#triplePositions_20",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_1#element_10",
+      "predicateDescription" : "http://example.org/view_1#element_36",
+      "predicateElement" : "http://purl.org/dc/terms/created",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "subjectElement" : "http://www.w3.org/2002/07/owl#Thing",
+      "objectDescription" : "http://example.org/view_1#element_20"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#triplePositions_23",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_1#element_3",
+      "predicateDescription" : "http://example.org/view_1#element_39",
+      "predicateElement" : "http://purl.org/muto/core#tagCreated",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "subjectElement" : "http://purl.org/muto/core#Tag",
+      "objectDescription" : "http://example.org/view_1#element_6"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#triplePositions_22",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_1#element_2",
+      "predicateDescription" : "http://example.org/view_1#element_38",
+      "predicateElement" : "http://purl.org/muto/core#taggedWith",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://purl.org/muto/core#Tagging",
+      "subjectElement" : "http://www.w3.org/2002/07/owl#Thing",
+      "objectDescription" : "http://example.org/view_1#element_1"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#triplePositions_22",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_0#element_2",
+      "predicateDescription" : "http://example.org/view_0#element_38",
+      "predicateElement" : "http://purl.org/muto/core#taggedWith",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://purl.org/muto/core#Tagging",
+      "subjectElement" : "http://www.w3.org/2002/07/owl#Thing",
+      "objectDescription" : "http://example.org/view_0#element_1"
+    }
+  }, {
+    "iri" : "http://visualdataweb.org/ontologies/vowl_notation#defaultDatatypeElement",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "strokeStyle" : "dashed",
+      "hoverInStrokeColor" : "#ff0000",
+      "renderingType" : "rect",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "true",
+      "bgColor" : "#ffcc33",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "true",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "hoverInFontColor" : "#000000",
+      "strokeColor" : "#000000",
+      "overWriteOffset" : "11",
+      "targetElement" : "http://visualdataweb.org/ontologies/vowl_notation#defaultDatatypeElement",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_1",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "1273.68",
+      "postion_y" : "265.31"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_0",
+    "annotations" : {
+      "visible" : "false",
+      "annotationIndividual" : "true",
+      "postion_x" : "0.0",
+      "postion_y" : "0.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#triplePositions_21",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_0#element_3",
+      "predicateDescription" : "http://example.org/view_0#element_37",
+      "predicateElement" : "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://www.w3.org/2004/02/skos/core#Concept",
+      "subjectElement" : "http://purl.org/muto/core#Tag",
+      "objectDescription" : "http://example.org/view_0#element_4"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#triplePositions_20",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_0#element_10",
+      "predicateDescription" : "http://example.org/view_0#element_36",
+      "predicateElement" : "http://purl.org/dc/terms/created",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "subjectElement" : "http://www.w3.org/2002/07/owl#Thing",
+      "objectDescription" : "http://example.org/view_0#element_20"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_5",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "1063.76",
+      "postion_y" : "635.33"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_4",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "1226.53",
+      "postion_y" : "440.23"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_3",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "938.75",
+      "postion_y" : "363.69"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#element_2",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "1597.82",
+      "postion_y" : "400.4"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#triplePositions_19",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_0#element_1",
+      "predicateDescription" : "http://example.org/view_0#element_35",
+      "predicateElement" : "http://purl.org/muto/core#taggingCreated",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "subjectElement" : "http://purl.org/muto/core#Tagging",
+      "objectDescription" : "http://example.org/view_0#element_13"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#triplePositions_18",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_0#element_3",
+      "predicateDescription" : "http://example.org/view_0#element_34",
+      "predicateElement" : "http://purl.org/muto/core#nextTag",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://purl.org/muto/core#Tag",
+      "subjectElement" : "http://purl.org/muto/core#Tag",
+      "objectDescription" : "http://example.org/view_0#element_3"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#triplePositions_17",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_0#element_10",
+      "predicateDescription" : "http://example.org/view_0#element_33",
+      "predicateElement" : "http://rdfs.org/sioc/ns#about",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://www.w3.org/2002/07/owl#Thing",
+      "subjectElement" : "http://www.w3.org/2002/07/owl#Thing",
+      "objectDescription" : "http://example.org/view_0#element_10"
+    }
+  }, {
+    "iri" : "http://visualdataweb.org/ontologies/gizmo_umlNotation#collapsedLoops",
+    "annotations" : {
+      "umlMarginBetween" : "5",
+      "umlDrawHeaderLine" : "true",
+      "umlMarginLeft" : "5",
+      "umlPropertyAlign" : "left",
+      "renderingType" : "umlStyle",
+      "umlHeaderAlign" : "center",
+      "umlOffsetToHeader" : "13",
+      "umlElementScaleFactor" : "1.0",
+      "umlOffsetToAfterLastElement" : "-5",
+      "umlShapeAdjustsShapeSize" : "false",
+      "umlHeightOffset" : "5",
+      "umlShowDatatypeProperty" : "true",
+      "umlMarginRight" : "5",
+      "targetElement" : "http://visualdataweb.org/ontologies/gizmo_umlNotation#collapsedLoops"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#triplePositions_16",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_0#element_3",
+      "predicateDescription" : "http://example.org/view_0#element_32",
+      "predicateElement" : "http://purl.org/muto/core#autoMeaning",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://www.w3.org/2002/07/owl#Thing",
+      "subjectElement" : "http://purl.org/muto/core#Tag",
+      "objectDescription" : "http://example.org/view_0#element_16"
+    }
+  }, {
+    "iri" : "http://visualdataweb.org/ontologies/vowl_notation#rdfsDatatype",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#ff0000",
+      "renderingType" : "rect",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "true",
+      "bgColor" : "#ffcc33",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "true",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "hoverInFontColor" : "#000000",
+      "strokeColor" : "#000000",
+      "overWriteOffset" : "11",
+      "targetElement" : "http://www.w3.org/2000/01/rdf-schema#Datatype",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#triplePositions_15",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_0#element_1",
+      "predicateDescription" : "http://example.org/view_0#element_31",
+      "predicateElement" : "http://purl.org/muto/core#taggingModified",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "subjectElement" : "http://purl.org/muto/core#Tagging",
+      "objectDescription" : "http://example.org/view_0#element_14"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#triplePositions_14",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_0#element_3",
+      "predicateDescription" : "http://example.org/view_0#element_29",
+      "predicateElement" : "http://purl.org/muto/core#tagMeaning",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://www.w3.org/2002/07/owl#Thing",
+      "subjectElement" : "http://purl.org/muto/core#Tag",
+      "objectDescription" : "http://example.org/view_0#element_16"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#triplePositions_13",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_0#element_3",
+      "predicateDescription" : "http://example.org/view_0#element_28",
+      "predicateElement" : "http://purl.org/muto/core#tagLabel",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "subjectElement" : "http://purl.org/muto/core#Tag",
+      "objectDescription" : "http://example.org/view_0#element_12"
+    }
+  }, {
+    "iri" : "http://visualdataweb.org/ontologies/gizmo_umlNotation#owlDatatypeProperty",
+    "annotations" : {
+      "link_arrowHead_scaleFactor" : "1.0",
+      "link_arrowHead_strokeStyle" : "solid",
+      "renderingType" : "rect",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "true",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "link_strokeStyle" : "solid",
+      "bgColor" : "#12de5d",
+      "fontSizeOverWritesShapeSize" : "true",
+      "hoverInColor" : "#ff0000",
+      "link_strokeColor" : "#000000",
+      "link_strokeWidth" : "2px",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "http://www.w3.org/2002/07/owl#DatatypeProperty",
+      "link_arrowHead_fillColor" : "#000000",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_arrowHead_strokeColor" : "#000000",
+      "link_renderingType" : "line",
+      "link_hoverColor" : "#ff0000",
+      "strokeElement" : "false",
+      "link_arrowHead_renderingType" : "triangle",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "overWriteOffset" : "5",
+      "fontColor" : "#000000",
+      "link_arrowHead_strokeWidth" : "2px"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#triplePositions_12",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_0#element_10",
+      "predicateDescription" : "http://example.org/view_0#element_27",
+      "predicateElement" : "http://rdfs.org/sioc/ns#creator_of",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://www.w3.org/2002/07/owl#Thing",
+      "subjectElement" : "http://www.w3.org/2002/07/owl#Thing",
+      "objectDescription" : "http://example.org/view_0#element_10"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#triplePositions_14",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_1#element_3",
+      "predicateDescription" : "http://example.org/view_1#element_29",
+      "predicateElement" : "http://purl.org/muto/core#tagMeaning",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://www.w3.org/2002/07/owl#Thing",
+      "subjectElement" : "http://purl.org/muto/core#Tag",
+      "objectDescription" : "http://example.org/view_1#element_16"
+    }
+  }, {
+    "iri" : "http://visualdataweb.org/ontologies/vowl_notation#rdfsLiteral",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "strokeStyle" : "dashed",
+      "hoverInStrokeColor" : "#ff0000",
+      "renderingType" : "rect",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "true",
+      "bgColor" : "#ffcc33",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "true",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "hoverInFontColor" : "#000000",
+      "strokeColor" : "#000000",
+      "overWriteOffset" : "11",
+      "targetElement" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#triplePositions_13",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_1#element_3",
+      "predicateDescription" : "http://example.org/view_1#element_28",
+      "predicateElement" : "http://purl.org/muto/core#tagLabel",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "subjectElement" : "http://purl.org/muto/core#Tag",
+      "objectDescription" : "http://example.org/view_1#element_12"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#triplePositions_16",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_1#element_3",
+      "predicateDescription" : "http://example.org/view_1#element_32",
+      "predicateElement" : "http://purl.org/muto/core#autoMeaning",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://www.w3.org/2002/07/owl#Thing",
+      "subjectElement" : "http://purl.org/muto/core#Tag",
+      "objectDescription" : "http://example.org/view_1#element_16"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#triplePositions_15",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_1#element_1",
+      "predicateDescription" : "http://example.org/view_1#element_31",
+      "predicateElement" : "http://purl.org/muto/core#taggingModified",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "subjectElement" : "http://purl.org/muto/core#Tagging",
+      "objectDescription" : "http://example.org/view_1#element_14"
+    }
+  }, {
+    "iri" : "http://visualdataweb.org/ontologies/vowl_notation#owlObjectProperty",
+    "annotations" : {
+      "link_arrowHead_scaleFactor" : "1.0",
+      "link_arrowHead_strokeStyle" : "solid",
+      "renderingType" : "rect",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "true",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "link_strokeStyle" : "solid",
+      "bgColor" : "#aaccff",
+      "fontSizeOverWritesShapeSize" : "true",
+      "hoverInColor" : "#ff0000",
+      "link_strokeColor" : "#000000",
+      "link_strokeWidth" : "2px",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "link_arrowHead_fillColor" : "#000000",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_arrowHead_strokeColor" : "#000000",
+      "link_renderingType" : "line",
+      "link_hoverColor" : "#ff0000",
+      "strokeElement" : "false",
+      "link_arrowHead_renderingType" : "triangle",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "overWriteOffset" : "11",
+      "fontColor" : "#000000",
+      "link_arrowHead_strokeWidth" : "2px"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#triplePositions_18",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_1#element_3",
+      "predicateDescription" : "http://example.org/view_1#element_34",
+      "predicateElement" : "http://purl.org/muto/core#nextTag",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://purl.org/muto/core#Tag",
+      "subjectElement" : "http://purl.org/muto/core#Tag",
+      "objectDescription" : "http://example.org/view_1#element_3"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#triplePositions_17",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_1#element_10",
+      "predicateDescription" : "http://example.org/view_1#element_33",
+      "predicateElement" : "http://rdfs.org/sioc/ns#about",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://www.w3.org/2002/07/owl#Thing",
+      "subjectElement" : "http://www.w3.org/2002/07/owl#Thing",
+      "objectDescription" : "http://example.org/view_1#element_10"
+    }
+  }, {
+    "iri" : "http://visualdataweb.org/ontologies/vowl_notation#defaultNodeElement",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#000000",
+      "renderingType" : "circle",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "allowDatatypeCollapseExpand" : "true",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "true",
+      "bgColor" : "#aaccff",
+      "defaultCollapsedLoops" : "false",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "false",
+      "fontSize" : "12px",
+      "defaultCollapsedDatatypes" : "false",
+      "allowLoopCollapseExpand" : "true",
+      "hoverInFontColor" : "#000000",
+      "strokeColor" : "#000000",
+      "radius" : "50",
+      "targetElement" : "http://visualdataweb.org/ontologies/vowl_notation#defaultNodeElement",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://visualdataweb.org/ontologies/vowl_notation#collapsedLoops",
+    "annotations" : {
+      "inshapeType" : "indicator",
+      "renderingType" : "inshape",
+      "inshapeStrokeStrokeWidth" : "2",
+      "inshapeStrokeType" : "dashed",
+      "targetElement" : "http://visualdataweb.org/ontologies/vowl_notation#collapsedLoops",
+      "inshapeIndicatorOffset" : "0",
+      "inshapeStrokeColor" : "#aaccff"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#triplePositions_19",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_1#element_1",
+      "predicateDescription" : "http://example.org/view_1#element_35",
+      "predicateElement" : "http://purl.org/muto/core#taggingCreated",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "subjectElement" : "http://purl.org/muto/core#Tagging",
+      "objectDescription" : "http://example.org/view_1#element_13"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_6",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "1351.71",
+      "postion_y" : "229.45"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_5",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "916.44",
+      "postion_y" : "648.27"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_4",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "820.2",
+      "postion_y" : "485.6"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_3",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "1118.79",
+      "postion_y" : "419.83"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#triplePositions_10",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_1#element_1",
+      "predicateDescription" : "http://example.org/view_1#element_25",
+      "predicateElement" : "http://purl.org/muto/core#grantAccess",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://www.w3.org/2002/07/owl#Thing",
+      "subjectElement" : "http://purl.org/muto/core#Tagging",
+      "objectDescription" : "http://example.org/view_1#element_2"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_2",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "1327.18",
+      "postion_y" : "865.29"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_1",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "1455.73",
+      "postion_y" : "536.4"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#triplePositions_12",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_1#element_10",
+      "predicateDescription" : "http://example.org/view_1#element_27",
+      "predicateElement" : "http://rdfs.org/sioc/ns#creator_of",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://www.w3.org/2002/07/owl#Thing",
+      "subjectElement" : "http://www.w3.org/2002/07/owl#Thing",
+      "objectDescription" : "http://example.org/view_1#element_10"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_0",
+    "annotations" : {
+      "visible" : "false",
+      "annotationIndividual" : "true",
+      "postion_x" : "0.0",
+      "postion_y" : "0.0"
+    }
+  }, {
+    "iri" : "http://example.org/view_1#triplePositions_11",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_1#element_3",
+      "predicateDescription" : "http://example.org/view_1#element_26",
+      "predicateElement" : "http://purl.org/muto/core#previousTag",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://purl.org/muto/core#Tag",
+      "subjectElement" : "http://purl.org/muto/core#Tag",
+      "objectDescription" : "http://example.org/view_1#element_3"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_9",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "1424.2",
+      "postion_y" : "51.7"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_8",
+    "annotations" : {
+      "visible" : "true",
+      "annotationIndividual" : "true",
+      "postion_x" : "1123.68",
+      "postion_y" : "661.59"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#element_7",
+    "annotations" : {
+      "visible" : "false",
+      "annotationIndividual" : "true",
+      "postion_x" : "0.0",
+      "postion_y" : "0.0"
+    }
+  }, {
+    "iri" : "http://visualdataweb.org/ontologies/vowl_notation#collapsedMultiLinkProperty",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "renderingType" : "rect",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "false",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "link_strokeStyle" : "dotted",
+      "bgColor" : "#acf",
+      "fontSizeOverWritesShapeSize" : "false",
+      "hoverInColor" : "#ff0000",
+      "link_strokeColor" : "#000000",
+      "link_strokeWidth" : "2px",
+      "hoverInFontColor" : "#000000",
+      "strokeColor" : "#000",
+      "targetElement" : "http://visualdataweb.org/ontologies/vowl_notation#collapsedMultiLinkProperty",
+      "height" : "20",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_renderingType" : "line",
+      "link_hoverColor" : "undefined",
+      "strokeElement" : "true",
+      "width" : "60",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://visualdataweb.org/ontologies/gizmo_umlNotation#owlObjectProperty",
+    "annotations" : {
+      "link_arrowHead_scaleFactor" : "1.0",
+      "link_arrowHead_strokeStyle" : "solid",
+      "renderingType" : "rect",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "true",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "link_strokeStyle" : "solid",
+      "bgColor" : "#0d8ddb",
+      "fontSizeOverWritesShapeSize" : "true",
+      "hoverInColor" : "#ff0000",
+      "link_strokeColor" : "#000000",
+      "link_strokeWidth" : "2px",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "http://www.w3.org/2002/07/owl#ObjectProperty",
+      "link_arrowHead_fillColor" : "#000000",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_arrowHead_strokeColor" : "#000000",
+      "link_renderingType" : "line",
+      "link_hoverColor" : "#ff0000",
+      "strokeElement" : "false",
+      "link_arrowHead_renderingType" : "triangle",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "overWriteOffset" : "5",
+      "fontColor" : "#000000",
+      "link_arrowHead_strokeWidth" : "2px"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#triplePositions_9",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_0#element_1",
+      "predicateDescription" : "http://example.org/view_0#element_24",
+      "predicateElement" : "http://purl.org/muto/core#hasTag",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://purl.org/muto/core#Tag",
+      "subjectElement" : "http://purl.org/muto/core#Tagging",
+      "objectDescription" : "http://example.org/view_0#element_3"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#triplePositions_7",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_0#element_3",
+      "predicateDescription" : "http://example.org/view_0#element_22",
+      "predicateElement" : "http://purl.org/muto/core#tagOf",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://purl.org/muto/core#Tagging",
+      "subjectElement" : "http://purl.org/muto/core#Tag",
+      "objectDescription" : "http://example.org/view_0#element_1"
+    }
+  }, {
+    "iri" : "http://visualdataweb.org/ontologies/gizmo_umlNotation#defaultDatatypeElement",
+    "annotations" : {
+      "hoverInStrokeColor" : "#ff0000",
+      "renderingType" : "rect",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "false",
+      "bgColor" : "#ff8d00",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "true",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "hoverInFontColor" : "#000000",
+      "overWriteOffset" : "5",
+      "targetElement" : "http://visualdataweb.org/ontologies/gizmo_umlNotation#defaultDatatypeElement",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#triplePositions_8",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_0#element_1",
+      "predicateDescription" : "http://example.org/view_0#element_23",
+      "predicateElement" : "http://purl.org/muto/core#hasCreator",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://rdfs.org/sioc/ns#UserAccount",
+      "subjectElement" : "http://purl.org/muto/core#Tagging",
+      "objectDescription" : "http://example.org/view_0#element_8"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#triplePositions_5",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_0#element_16",
+      "predicateDescription" : "http://example.org/view_0#element_18",
+      "predicateElement" : "http://purl.org/muto/core#meaningOf",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://purl.org/muto/core#Tag",
+      "subjectElement" : "http://www.w3.org/2002/07/owl#Thing",
+      "objectDescription" : "http://example.org/view_0#element_3"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#triplePositions_6",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_0#element_10",
+      "predicateDescription" : "http://example.org/view_0#element_21",
+      "predicateElement" : "http://rdfs.org/sioc/ns#has_creator",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://www.w3.org/2002/07/owl#Thing",
+      "subjectElement" : "http://www.w3.org/2002/07/owl#Thing",
+      "objectDescription" : "http://example.org/view_0#element_10"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#triplePositions_3",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_0#element_2",
+      "predicateDescription" : "http://example.org/view_0#element_15",
+      "predicateElement" : "http://purl.org/muto/core#hasAccess",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://purl.org/muto/core#Tagging",
+      "subjectElement" : "http://www.w3.org/2002/07/owl#Thing",
+      "objectDescription" : "http://example.org/view_0#element_1"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#triplePositions_4",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_0#element_5",
+      "predicateDescription" : "http://example.org/view_0#element_17",
+      "predicateElement" : "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://purl.org/muto/core#Tag",
+      "subjectElement" : "http://purl.org/muto/core#AutoTag",
+      "objectDescription" : "http://example.org/view_0#element_3"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#triplePositions_1",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_0#element_8",
+      "predicateDescription" : "http://example.org/view_0#element_7",
+      "predicateElement" : "http://purl.org/muto/core#creatorOf",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://purl.org/muto/core#Tagging",
+      "subjectElement" : "http://rdfs.org/sioc/ns#UserAccount",
+      "objectDescription" : "http://example.org/view_0#element_1"
+    }
+  }, {
+    "iri" : "http://visualdataweb.org/ontologies/vowl_notation#rdfssubClassOf",
+    "annotations" : {
+      "link_arrowHead_scaleFactor" : "1.0",
+      "link_arrowHead_strokeStyle" : "solid",
+      "renderingType" : "rect",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "true",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "link_strokeStyle" : "dotted",
+      "bgColor" : "#ecf0f1",
+      "fontSizeOverWritesShapeSize" : "true",
+      "hoverInColor" : "#ff0000",
+      "link_strokeColor" : "#000000",
+      "link_strokeWidth" : "2px",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "link_arrowHead_fillColor" : "#ffffff",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_arrowHead_strokeColor" : "#000000",
+      "link_renderingType" : "line",
+      "link_hoverColor" : "#ff0000",
+      "strokeElement" : "false",
+      "link_arrowHead_renderingType" : "triangle",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "overWriteOffset" : "11",
+      "fontColor" : "#000000",
+      "link_arrowHead_strokeWidth" : "2px"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#triplePositions_2",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_0#element_10",
+      "predicateDescription" : "http://example.org/view_0#element_9",
+      "predicateElement" : "http://purl.org/dc/terms/modified",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "subjectElement" : "http://www.w3.org/2002/07/owl#Thing",
+      "objectDescription" : "http://example.org/view_0#element_11"
+    }
+  }, {
+    "iri" : "http://example.org/view_0#triplePositions_0",
+    "annotations" : {
+      "subjectDescription" : "http://example.org/view_0#element_1",
+      "predicateDescription" : "http://example.org/view_0#element_0",
+      "predicateElement" : "http://purl.org/muto/core#taggedResource",
+      "annotationIndividual" : "true",
+      "objectElement" : "http://www.w3.org/2002/07/owl#Thing",
+      "subjectElement" : "http://purl.org/muto/core#Tagging",
+      "objectDescription" : "http://example.org/view_0#element_2"
+    }
+  }, {
+    "iri" : "http://visualdataweb.org/ontologies/gizmo_umlNotation#defaultPropertyElement",
+    "annotations" : {
+      "link_arrowHead_scaleFactor" : "1.0",
+      "link_arrowHead_strokeStyle" : "solid",
+      "renderingType" : "rect",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "true",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "link_strokeStyle" : "solid",
+      "bgColor" : "#ffffff",
+      "fontSizeOverWritesShapeSize" : "true",
+      "hoverInColor" : "#ff0000",
+      "link_strokeColor" : "#000000",
+      "link_strokeWidth" : "2px",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "http://visualdataweb.org/ontologies/gizmo_umlNotation#defaultPropertyElement",
+      "link_arrowHead_fillColor" : "#000000",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_arrowHead_strokeColor" : "#000000",
+      "link_renderingType" : "line",
+      "link_hoverColor" : "#ff0000",
+      "strokeElement" : "false",
+      "link_arrowHead_renderingType" : "triangle",
+      "roundedCorner" : "0,0",
+      "fontSize" : "12px",
+      "overWriteOffset" : "5",
+      "fontColor" : "#000000",
+      "link_arrowHead_strokeWidth" : "2px"
+    }
+  }, {
+    "iri" : "http://visualdataweb.org/ontologies/vowl_notation#owlThing",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "strokeStyle" : "dashed",
+      "hoverInStrokeColor" : "#000000",
+      "renderingType" : "circle",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "allowDatatypeCollapseExpand" : "true",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "true",
+      "bgColor" : "#ffffff",
+      "defaultCollapsedLoops" : "false",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "false",
+      "fontSize" : "12px",
+      "defaultCollapsedDatatypes" : "false",
+      "allowLoopCollapseExpand" : "true",
+      "hoverInFontColor" : "#000000",
+      "strokeColor" : "#000000",
+      "radius" : "35",
+      "targetElement" : "http://www.w3.org/2002/07/owl#Thing",
+      "fontColor" : "#000000"
+    }
+  } ],
+  "class" : [ {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "2",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "6",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "9",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "7",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3.org/2004/02/skos/core#Concept",
+    "baseIri" : "http://www.w3.org/2004/02/skos/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Concept",
+      "en" : "Concept"
+    },
+    "subClasses" : [ "4" ],
+    "attributes" : [ "external" ],
+    "id" : "3"
+  }, {
+    "iri" : "http://purl.org/muto/core#PrivateTagging",
+    "baseIri" : "http://purl.org/muto/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PrivateTagging",
+      "en" : "Private Tagging"
+    },
+    "attributes" : [ "external" ],
+    "id" : "10",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://purl.org/muto/core#AutoTag",
+    "baseIri" : "http://purl.org/muto/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AutoTag",
+      "en" : "Automatic Tag"
+    },
+    "attributes" : [ "external" ],
+    "id" : "16",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://rdfs.org/sioc/ns#UserAccount",
+    "baseIri" : "http://rdfs.org/sioc/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "UserAccount",
+      "en" : "UserAccount"
+    },
+    "attributes" : [ "external" ],
+    "id" : "13"
+  }, {
+    "iri" : "http://purl.org/muto/core#Tagging",
+    "baseIri" : "http://purl.org/muto/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Tagging",
+      "en" : "Tagging"
+    },
+    "subClasses" : [ "10" ],
+    "attributes" : [ "external" ],
+    "id" : "1",
+    "superClasses" : [ "22" ]
+  }, {
+    "iri" : "http://purl.org/muto/core#Tag",
+    "baseIri" : "http://purl.org/muto/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Tag",
+      "en" : "Tag"
+    },
+    "subClasses" : [ "16" ],
+    "attributes" : [ "external" ],
+    "id" : "4",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "25",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "27",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "28",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "29",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "2",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "6",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "9",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "20",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "7",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://rdfs.org/sioc/ns#Item",
+    "baseIri" : "http://rdfs.org/sioc/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Item",
+      "en" : "Item"
+    },
+    "subClasses" : [ "1" ],
+    "attributes" : [ "external" ],
+    "id" : "22"
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "5",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "8",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "11",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "12",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "14",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "17",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "18",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "19",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "26",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "30",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "32",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "33",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "34",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "35",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "36",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "37",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "38",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "39",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "40",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "41",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://purl.org/muto/core#taggedResource",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "taggedResource",
+      "en" : "tagged resource"
+    },
+    "cardinality" : 0.3,
+    "domain" : "1",
+    "attributes" : [ "object", "external" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://purl.org/dc/terms/modified",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "7",
+    "label" : {
+      "IRI-based" : "modified",
+      "en" : "modified"
+    },
+    "cardinality" : 0.3,
+    "domain" : "6",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "5"
+  }, {
+    "iri" : "http://purl.org/muto/core#meaningOf",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "meaningOf",
+      "en" : "meaning of"
+    },
+    "cardinality" : 0.3,
+    "domain" : "9",
+    "attributes" : [ "object", "external" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://purl.org/muto/core#hasTag",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "hasTag",
+      "en" : "has tag"
+    },
+    "cardinality" : 0.3,
+    "domain" : "1",
+    "attributes" : [ "object", "external" ],
+    "id" : "11"
+  }, {
+    "iri" : "http://purl.org/muto/core#hasCreator",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "hasCreator",
+      "en" : "has creator"
+    },
+    "cardinality" : 0.3,
+    "domain" : "1",
+    "attributes" : [ "object", "external" ],
+    "id" : "12"
+  }, {
+    "iri" : "http://purl.org/muto/core#grantAccess",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "grantAccess",
+      "en" : "grant access"
+    },
+    "cardinality" : 0.3,
+    "domain" : "1",
+    "attributes" : [ "object", "external" ],
+    "id" : "14"
+  }, {
+    "iri" : "http://rdfs.org/sioc/ns#creator_of",
+    "baseIri" : "http://rdfs.org/sioc/ns",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "creator_of",
+      "en" : "creator_of"
+    },
+    "cardinality" : 0.3,
+    "domain" : "6",
+    "attributes" : [ "object", "external" ],
+    "id" : "15"
+  }, {
+    "iri" : "http://purl.org/muto/core#tagMeaning",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "tagMeaning",
+      "en" : "tag meaning"
+    },
+    "cardinality" : 0.3,
+    "domain" : "4",
+    "attributes" : [ "object", "external" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://rdfs.org/sioc/ns#about",
+    "baseIri" : "http://rdfs.org/sioc/ns",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "about",
+      "en" : "about"
+    },
+    "cardinality" : 0.3,
+    "domain" : "6",
+    "attributes" : [ "object", "external" ],
+    "id" : "18"
+  }, {
+    "iri" : "http://purl.org/dc/terms/created",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "created",
+      "en" : "created"
+    },
+    "cardinality" : 0.3,
+    "domain" : "6",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "19"
+  }, {
+    "range" : "3",
+    "cardinality" : 0.3,
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "21"
+  }, {
+    "range" : "1",
+    "cardinality" : 0.3,
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "23"
+  }, {
+    "range" : "22",
+    "cardinality" : 0.3,
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://purl.org/muto/core#creatorOf",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "creatorOf",
+      "en" : "creator of"
+    },
+    "cardinality" : 0.3,
+    "domain" : "13",
+    "attributes" : [ "object", "external" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://purl.org/muto/core#hasAccess",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "hasAccess",
+      "en" : "has access"
+    },
+    "cardinality" : 0.3,
+    "domain" : "2",
+    "attributes" : [ "object", "external" ],
+    "id" : "30"
+  }, {
+    "range" : "4",
+    "cardinality" : 0.3,
+    "domain" : "16",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "31"
+  }, {
+    "iri" : "http://rdfs.org/sioc/ns#has_creator",
+    "baseIri" : "http://rdfs.org/sioc/ns",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "has_creator",
+      "en" : "has_creator"
+    },
+    "cardinality" : 0.3,
+    "domain" : "6",
+    "attributes" : [ "object", "external" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://purl.org/muto/core#tagOf",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "tagOf",
+      "en" : "tag of"
+    },
+    "cardinality" : 0.3,
+    "domain" : "4",
+    "attributes" : [ "object", "external" ],
+    "id" : "33"
+  }, {
+    "iri" : "http://purl.org/muto/core#previousTag",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "previousTag",
+      "en" : "previous tag"
+    },
+    "cardinality" : 0.3,
+    "domain" : "4",
+    "attributes" : [ "object", "external" ],
+    "id" : "34"
+  }, {
+    "iri" : "http://purl.org/muto/core#tagLabel",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "tagLabel",
+      "en" : "tag label"
+    },
+    "cardinality" : 0.3,
+    "domain" : "4",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://purl.org/muto/core#taggingModified",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "taggingModified",
+      "en" : "tagging modified"
+    },
+    "cardinality" : 0.3,
+    "domain" : "1",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "36"
+  }, {
+    "iri" : "http://purl.org/muto/core#autoMeaning",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "autoMeaning",
+      "en" : "automatic tag meaning"
+    },
+    "cardinality" : 0.3,
+    "domain" : "4",
+    "attributes" : [ "object", "external" ],
+    "id" : "37"
+  }, {
+    "iri" : "http://purl.org/muto/core#nextTag",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "nextTag",
+      "en" : "next tag"
+    },
+    "cardinality" : 0.3,
+    "domain" : "4",
+    "attributes" : [ "object", "external" ],
+    "id" : "38"
+  }, {
+    "iri" : "http://purl.org/muto/core#taggingCreated",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "taggingCreated",
+      "en" : "tagging created"
+    },
+    "cardinality" : 0.3,
+    "domain" : "1",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "39"
+  }, {
+    "iri" : "http://purl.org/muto/core#taggedWith",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "taggedWith",
+      "en" : "tagged with"
+    },
+    "cardinality" : 0.3,
+    "domain" : "2",
+    "attributes" : [ "object", "external" ],
+    "id" : "40"
+  }, {
+    "iri" : "http://purl.org/muto/core#tagCreated",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "25",
+    "label" : {
+      "IRI-based" : "tagCreated",
+      "en" : "tag created"
+    },
+    "cardinality" : 0.3,
+    "domain" : "4",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "41"
+  } ]
+}

@@ -1,0 +1,1547 @@
+{
+"_comment":"Exported with WebVOWL Api (v3.version 0.0.1 )", 
+"viewDefinitions": [ 
+{
+ "gizmoConfig": "gizmoVOWLNotation.json",
+ "elementAttributes": [
+  {
+   "id": "4",
+   "pos": [
+    "589.99",
+    "750.41"
+   ],
+   "visible": true
+  },
+  {
+   "id": "5",
+   "pos": [
+    "811.98",
+    "944.87"
+   ],
+   "visible": true
+  },
+  {
+   "id": "7",
+   "pos": [
+    "382.92",
+    "321.17"
+   ],
+   "visible": false
+  },
+  {
+   "id": "15",
+   "pos": [
+    "675.91",
+    "99.03"
+   ],
+   "visible": false
+  },
+  {
+   "id": "2",
+   "pos": [
+    "1032.07",
+    "364.98"
+   ],
+   "visible": true
+  },
+  {
+   "id": "9",
+   "pos": [
+    "964.50",
+    "552.74"
+   ],
+   "visible": true
+  },
+  {
+   "id": "10",
+   "pos": [
+    "1098.19",
+    "775.64"
+   ],
+   "visible": false
+  },
+  {
+   "id": "18",
+   "pos": [
+    "287.77",
+    "594.68"
+   ],
+   "visible": true
+  },
+  {
+   "id": "19",
+   "pos": [
+    "871.04",
+    "313.10"
+   ],
+   "visible": false
+  },
+  {
+   "id": "21",
+   "pos": [
+    "496.74",
+    "197.16"
+   ],
+   "visible": true
+  },
+  {
+   "id": "24",
+   "pos": [
+    "848.28",
+    "865.87"
+   ],
+   "visible": false
+  },
+  {
+   "id": "25",
+   "pos": [
+    "788.21",
+    "488.25"
+   ],
+   "visible": false
+  },
+  {
+   "id": "6",
+   "pos": [
+    "880.92",
+    "683.68"
+   ],
+   "visible": true
+  },
+  {
+   "id": "32",
+   "pos": [
+    "844.68",
+    "167.31"
+   ],
+   "visible": true
+  },
+  {
+   "id": "12",
+   "pos": [
+    "349.70",
+    "435.39"
+   ],
+   "visible": true
+  },
+  {
+   "id": "1",
+   "pos": [
+    "690.71",
+    "421.13"
+   ],
+   "visible": true
+  },
+  {
+   "id": "0",
+   "pos": [
+    "0.00",
+    "0.00"
+   ],
+   "visible": false
+  },
+  {
+   "id": "11",
+   "pos": [
+    "0.00",
+    "0.00"
+   ],
+   "visible": false
+  },
+  {
+   "id": "16",
+   "pos": [
+    "0.00",
+    "0.00"
+   ],
+   "visible": false
+  },
+  {
+   "id": "22",
+   "pos": [
+    "664.78",
+    "677.49"
+   ],
+   "visible": false
+  },
+  {
+   "id": "26",
+   "pos": [
+    "1198.35",
+    "574.23"
+   ],
+   "visible": false
+  },
+  {
+   "id": "27",
+   "pos": [
+    "0.00",
+    "0.00"
+   ],
+   "visible": false
+  },
+  {
+   "id": "13",
+   "pos": [
+    "0.00",
+    "0.00"
+   ],
+   "visible": false
+  },
+  {
+   "id": "28",
+   "pos": [
+    "0.00",
+    "0.00"
+   ],
+   "visible": false
+  },
+  {
+   "id": "17",
+   "pos": [
+    "0.00",
+    "0.00"
+   ],
+   "visible": false
+  },
+  {
+   "id": "29",
+   "pos": [
+    "706.00",
+    "691.06"
+   ],
+   "visible": false
+  },
+  {
+   "id": "14",
+   "pos": [
+    "1000.37",
+    "477.80"
+   ],
+   "visible": false
+  },
+  {
+   "id": "23",
+   "pos": [
+    "605.45",
+    "574.93"
+   ],
+   "visible": false
+  },
+  {
+   "id": "33",
+   "pos": [
+    "551.59",
+    "470.49"
+   ],
+   "visible": false
+  },
+  {
+   "id": "3",
+   "pos": [
+    "1152.62",
+    "349.74"
+   ],
+   "visible": false
+  },
+  {
+   "id": "30",
+   "pos": [
+    "487.41",
+    "639.76"
+   ],
+   "visible": false
+  },
+  {
+   "id": "38",
+   "pos": [
+    "0.00",
+    "0.00"
+   ],
+   "visible": false
+  },
+  {
+   "id": "8",
+   "pos": [
+    "1040.35",
+    "679.19"
+   ],
+   "visible": false
+  },
+  {
+   "id": "20",
+   "pos": [
+    "735.46",
+    "717.05"
+   ],
+   "visible": true
+  },
+  {
+   "id": "31",
+   "pos": [
+    "704.18",
+    "599.39"
+   ],
+   "visible": false
+  },
+  {
+   "id": "34",
+   "pos": [
+    "682.16",
+    "235.11"
+   ],
+   "visible": false
+  },
+  {
+   "id": "35",
+   "pos": [
+    "513.04",
+    "363.43"
+   ],
+   "visible": false
+  },
+  {
+   "id": "36",
+   "pos": [
+    "911.41",
+    "416.62"
+   ],
+   "visible": false
+  },
+  {
+   "id": "37",
+   "pos": [
+    "700.99",
+    "847.64"
+   ],
+   "visible": true
+  },
+  {
+   "id": "39",
+   "pos": [
+    "741.96",
+    "818.34"
+   ],
+   "visible": false
+  },
+  {
+   "id": "40",
+   "pos": [
+    "593.73",
+    "309.15"
+   ],
+   "visible": true
+  },
+  {
+   "id": "41",
+   "pos": [
+    "767.70",
+    "294.22"
+   ],
+   "visible": true
+  }
+ ]
+}
+,{
+ "gizmoConfig": "gizmoVOWLNotation.json",
+ "elementAttributes": [
+  {
+   "id": "4",
+   "pos": [
+    "668.31",
+    "469.74"
+   ],
+   "visible": true
+  },
+  {
+   "id": "5",
+   "pos": [
+    "717.01",
+    "801.20"
+   ],
+   "visible": true
+  },
+  {
+   "id": "7",
+   "pos": [
+    "466.32",
+    "-111.61"
+   ],
+   "visible": true
+  },
+  {
+   "id": "15",
+   "pos": [
+    "790.06",
+    "-219.48"
+   ],
+   "visible": true
+  },
+  {
+   "id": "2",
+   "pos": [
+    "1075.83",
+    "9.16"
+   ],
+   "visible": true
+  },
+  {
+   "id": "9",
+   "pos": [
+    "1286.51",
+    "917.06"
+   ],
+   "visible": true
+  },
+  {
+   "id": "10",
+   "pos": [
+    "1474.52",
+    "670.74"
+   ],
+   "visible": true
+  },
+  {
+   "id": "18",
+   "pos": [
+    "349.32",
+    "714.39"
+   ],
+   "visible": true
+  },
+  {
+   "id": "19",
+   "pos": [
+    "1344.86",
+    "611.72"
+   ],
+   "visible": true
+  },
+  {
+   "id": "21",
+   "pos": [
+    "598.15",
+    "-208.34"
+   ],
+   "visible": true
+  },
+  {
+   "id": "24",
+   "pos": [
+    "903.58",
+    "694.63"
+   ],
+   "visible": true
+  },
+  {
+   "id": "25",
+   "pos": [
+    "976.90",
+    "565.79"
+   ],
+   "visible": true
+  },
+  {
+   "id": "6",
+   "pos": [
+    "816.83",
+    "763.81"
+   ],
+   "visible": true
+  },
+  {
+   "id": "32",
+   "pos": [
+    "946.75",
+    "-124.66"
+   ],
+   "visible": true
+  },
+  {
+   "id": "12",
+   "pos": [
+    "346.80",
+    "-0.06"
+   ],
+   "visible": true
+  },
+  {
+   "id": "1",
+   "pos": [
+    "712.97",
+    "76.68"
+   ],
+   "visible": true
+  },
+  {
+   "id": "0",
+   "pos": [
+    "0.00",
+    "0.00"
+   ],
+   "visible": false
+  },
+  {
+   "id": "11",
+   "pos": [
+    "0.00",
+    "0.00"
+   ],
+   "visible": false
+  },
+  {
+   "id": "16",
+   "pos": [
+    "0.00",
+    "0.00"
+   ],
+   "visible": false
+  },
+  {
+   "id": "22",
+   "pos": [
+    "574.40",
+    "688.87"
+   ],
+   "visible": true
+  },
+  {
+   "id": "26",
+   "pos": [
+    "1228.80",
+    "1031.27"
+   ],
+   "visible": true
+  },
+  {
+   "id": "27",
+   "pos": [
+    "786.12",
+    "278.18"
+   ],
+   "visible": true
+  },
+  {
+   "id": "13",
+   "pos": [
+    "0.00",
+    "0.00"
+   ],
+   "visible": false
+  },
+  {
+   "id": "28",
+   "pos": [
+    "604.75",
+    "257.62"
+   ],
+   "visible": true
+  },
+  {
+   "id": "17",
+   "pos": [
+    "0.00",
+    "0.00"
+   ],
+   "visible": false
+  },
+  {
+   "id": "29",
+   "pos": [
+    "807.13",
+    "477.21"
+   ],
+   "visible": true
+  },
+  {
+   "id": "14",
+   "pos": [
+    "1281.53",
+    "793.14"
+   ],
+   "visible": true
+  },
+  {
+   "id": "23",
+   "pos": [
+    "504.54",
+    "601.54"
+   ],
+   "visible": true
+  },
+  {
+   "id": "33",
+   "pos": [
+    "434.42",
+    "506.73"
+   ],
+   "visible": true
+  },
+  {
+   "id": "3",
+   "pos": [
+    "1411.93",
+    "910.04"
+   ],
+   "visible": true
+  },
+  {
+   "id": "30",
+   "pos": [
+    "777.14",
+    "555.66"
+   ],
+   "visible": true
+  },
+  {
+   "id": "38",
+   "pos": [
+    "0.00",
+    "0.00"
+   ],
+   "visible": false
+  },
+  {
+   "id": "8",
+   "pos": [
+    "1391.13",
+    "779.99"
+   ],
+   "visible": true
+  },
+  {
+   "id": "20",
+   "pos": [
+    "742.57",
+    "616.78"
+   ],
+   "visible": true
+  },
+  {
+   "id": "31",
+   "pos": [
+    "846.48",
+    "525.19"
+   ],
+   "visible": true
+  },
+  {
+   "id": "34",
+   "pos": [
+    "757.81",
+    "-95.59"
+   ],
+   "visible": true
+  },
+  {
+   "id": "35",
+   "pos": [
+    "569.77",
+    "-32.63"
+   ],
+   "visible": true
+  },
+  {
+   "id": "36",
+   "pos": [
+    "1318.97",
+    "747.20"
+   ],
+   "visible": true
+  },
+  {
+   "id": "37",
+   "pos": [
+    "692.66",
+    "635.47"
+   ],
+   "visible": true
+  },
+  {
+   "id": "39",
+   "pos": [
+    "804.02",
+    "599.46"
+   ],
+   "visible": true
+  },
+  {
+   "id": "40",
+   "pos": [
+    "655.56",
+    "-65.83"
+   ],
+   "visible": true
+  },
+  {
+   "id": "41",
+   "pos": [
+    "829.86",
+    "-23.99"
+   ],
+   "visible": true
+  }
+ ]
+}
+,{
+ "gizmoConfig": "gizmoVOWL-UML-Notation.json",
+ "elementAttributes": [
+  {
+   "id": "4",
+   "pos": [
+    "668.31",
+    "469.74"
+   ],
+   "visible": true
+  },
+  {
+   "id": "5",
+   "pos": [
+    "717.01",
+    "801.20"
+   ],
+   "visible": true
+  },
+  {
+   "id": "7",
+   "pos": [
+    "466.32",
+    "-111.61"
+   ],
+   "visible": false
+  },
+  {
+   "id": "15",
+   "pos": [
+    "790.06",
+    "-219.48"
+   ],
+   "visible": false
+  },
+  {
+   "id": "2",
+   "pos": [
+    "1075.83",
+    "9.16"
+   ],
+   "visible": true
+  },
+  {
+   "id": "9",
+   "pos": [
+    "1286.51",
+    "917.06"
+   ],
+   "visible": true
+  },
+  {
+   "id": "10",
+   "pos": [
+    "1474.52",
+    "670.74"
+   ],
+   "visible": false
+  },
+  {
+   "id": "18",
+   "pos": [
+    "349.32",
+    "714.39"
+   ],
+   "visible": true
+  },
+  {
+   "id": "19",
+   "pos": [
+    "1344.86",
+    "611.72"
+   ],
+   "visible": false
+  },
+  {
+   "id": "21",
+   "pos": [
+    "598.15",
+    "-208.34"
+   ],
+   "visible": true
+  },
+  {
+   "id": "24",
+   "pos": [
+    "903.58",
+    "694.63"
+   ],
+   "visible": false
+  },
+  {
+   "id": "25",
+   "pos": [
+    "976.90",
+    "565.79"
+   ],
+   "visible": false
+  },
+  {
+   "id": "6",
+   "pos": [
+    "816.83",
+    "763.81"
+   ],
+   "visible": true
+  },
+  {
+   "id": "32",
+   "pos": [
+    "946.75",
+    "-124.66"
+   ],
+   "visible": true
+  },
+  {
+   "id": "12",
+   "pos": [
+    "346.80",
+    "-0.06"
+   ],
+   "visible": true
+  },
+  {
+   "id": "1",
+   "pos": [
+    "712.97",
+    "76.68"
+   ],
+   "visible": true
+  },
+  {
+   "id": "0",
+   "pos": [
+    "0.00",
+    "0.00"
+   ],
+   "visible": false
+  },
+  {
+   "id": "11",
+   "pos": [
+    "0.00",
+    "0.00"
+   ],
+   "visible": false
+  },
+  {
+   "id": "16",
+   "pos": [
+    "0.00",
+    "0.00"
+   ],
+   "visible": false
+  },
+  {
+   "id": "22",
+   "pos": [
+    "574.40",
+    "688.87"
+   ],
+   "visible": true
+  },
+  {
+   "id": "26",
+   "pos": [
+    "1228.80",
+    "1031.27"
+   ],
+   "visible": false
+  },
+  {
+   "id": "27",
+   "pos": [
+    "786.12",
+    "278.18"
+   ],
+   "visible": true
+  },
+  {
+   "id": "13",
+   "pos": [
+    "0.00",
+    "0.00"
+   ],
+   "visible": false
+  },
+  {
+   "id": "28",
+   "pos": [
+    "604.75",
+    "257.62"
+   ],
+   "visible": true
+  },
+  {
+   "id": "17",
+   "pos": [
+    "0.00",
+    "0.00"
+   ],
+   "visible": false
+  },
+  {
+   "id": "29",
+   "pos": [
+    "807.13",
+    "477.21"
+   ],
+   "visible": false
+  },
+  {
+   "id": "14",
+   "pos": [
+    "1281.53",
+    "793.14"
+   ],
+   "visible": false
+  },
+  {
+   "id": "23",
+   "pos": [
+    "504.54",
+    "601.54"
+   ],
+   "visible": true
+  },
+  {
+   "id": "33",
+   "pos": [
+    "434.42",
+    "506.73"
+   ],
+   "visible": true
+  },
+  {
+   "id": "3",
+   "pos": [
+    "1411.93",
+    "910.04"
+   ],
+   "visible": false
+  },
+  {
+   "id": "30",
+   "pos": [
+    "777.14",
+    "555.66"
+   ],
+   "visible": false
+  },
+  {
+   "id": "38",
+   "pos": [
+    "0.00",
+    "0.00"
+   ],
+   "visible": false
+  },
+  {
+   "id": "8",
+   "pos": [
+    "1380.52",
+    "793.90"
+   ],
+   "visible": false
+  },
+  {
+   "id": "20",
+   "pos": [
+    "742.57",
+    "616.77"
+   ],
+   "visible": true
+  },
+  {
+   "id": "31",
+   "pos": [
+    "822.61",
+    "517.76"
+   ],
+   "visible": false
+  },
+  {
+   "id": "34",
+   "pos": [
+    "751.51",
+    "-71.40"
+   ],
+   "visible": false
+  },
+  {
+   "id": "35",
+   "pos": [
+    "589.64",
+    "-17.47"
+   ],
+   "visible": false
+  },
+  {
+   "id": "36",
+   "pos": [
+    "1315.68",
+    "764.39"
+   ],
+   "visible": false
+  },
+  {
+   "id": "37",
+   "pos": [
+    "692.66",
+    "635.47"
+   ],
+   "visible": true
+  },
+  {
+   "id": "39",
+   "pos": [
+    "785.95",
+    "582.18"
+   ],
+   "visible": false
+  },
+  {
+   "id": "40",
+   "pos": [
+    "655.56",
+    "-65.83"
+   ],
+   "visible": true
+  },
+  {
+   "id": "41",
+   "pos": [
+    "829.86",
+    "-23.99"
+   ],
+   "visible": true
+  }
+ ]
+}
+],
+"header":{
+"languages": [
+ "en",
+ "undefined"
+]
+,"baseIris": [
+ "http://purl.org/muto/core",
+ "http://www.w3.org/1999/02/22-rdf-syntax-ns",
+ "http://www.w3.org/2000/01/rdf-schema",
+ "http://purl.org/dc/terms",
+ "http://www.w3.org/2001/XMLSchema",
+ "http://rdfs.org/sioc/ns",
+ "http://www.w3.org/2004/02/skos/core"
+]
+,"prefixList": {}
+,"title": {
+ "undefined": "Modular Unified Tagging Ontology (MUTO)"
+}
+,"iri": "http://purl.org/muto/core"
+,"version": "Version 1.0 - Global changes (compared to earlier versions): Some properties have been renamed; cardinality constraints in class descriptions (owl:Restriction) have been replaced by global cardinality constraints (owl:FunctionalProperty)."
+,"author": [
+ "Steffen Lohmann"
+]
+,"description": {
+ "undefined": "The Modular and Unified Tagging Ontology (MUTO) is an ontology for tagging and folksonomies. It is based on a thorough review of earlier tagging ontologies and unifies core concepts in one consistent schema. It supports different forms of tagging, such as common, semantic, group, private, and automatic tagging, and is easily extensible."
+}
+,"labels": {
+ "en": "MUTO Core Ontology"
+}
+,"other": {
+ "licence": [
+  {
+   "identifier": "licence",
+   "language": "undefined",
+   "value": "http://creativecommons.org/licenses/by/3.0/",
+   "type": "label"
+  }
+ ],
+ "creator": [
+  {
+   "identifier": "creator",
+   "language": "undefined",
+   "value": "Steffen Lohmann",
+   "type": "label"
+  }
+ ],
+ "versionInfo": [
+  {
+   "identifier": "versionInfo",
+   "language": "undefined",
+   "value": "Version 1.0 - Global changes (compared to earlier versions): Some properties have been renamed; cardinality constraints in class descriptions (owl:Restriction) have been replaced by global cardinality constraints (owl:FunctionalProperty).",
+   "type": "label"
+  }
+ ],
+ "title": [
+  {
+   "identifier": "title",
+   "language": "undefined",
+   "value": "Modular Unified Tagging Ontology (MUTO)",
+   "type": "label"
+  }
+ ],
+ "issued": [
+  {
+   "identifier": "issued",
+   "language": "undefined",
+   "value": "2011-11-16",
+   "type": "label"
+  }
+ ],
+ "seeAlso": [
+  {
+   "identifier": "seeAlso",
+   "language": "undefined",
+   "value": "http://purl.org/muto/core#",
+   "type": "label"
+  }
+ ],
+ "homepage": [
+  {
+   "identifier": "homepage",
+   "language": "undefined",
+   "value": "http://purl.org/muto",
+   "type": "label"
+  }
+ ],
+ "depiction": [
+  {
+   "identifier": "depiction",
+   "language": "undefined",
+   "value": "http://purl.org/muto/core/muto-UML.png",
+   "type": "label"
+  },
+  {
+   "identifier": "depiction",
+   "language": "undefined",
+   "value": "http://purl.org/muto/core/muto-compact.png",
+   "type": "label"
+  }
+ ]
+}
+},
+"class": [
+{ "id":"4" , "type":"owl:Class"}
+,{ "id":"5" , "type":"owl:Class"}
+,{ "id":"7" , "type":"rdfs:Datatype"}
+,{ "id":"15" , "type":"rdfs:Datatype"}
+,{ "id":"2" , "type":"owl:Thing"}
+,{ "id":"9" , "type":"owl:Thing"}
+,{ "id":"10" , "type":"rdfs:Literal"}
+,{ "id":"18" , "type":"owl:Thing"}
+,{ "id":"19" , "type":"rdfs:Literal"}
+,{ "id":"21" , "type":"owl:Class"}
+,{ "id":"24" , "type":"rdfs:Datatype"}
+,{ "id":"25" , "type":"rdfs:Literal"}
+,{ "id":"6" , "type":"owl:Class"}
+,{ "id":"32" , "type":"owl:Class"}
+,{ "id":"12" , "type":"owl:Class"}
+,{ "id":"1" , "type":"owl:Class"}
+]
+,
+"classAttribute": [
+{ "id":"4" 
+,"iri":"http://purl.org/muto/core#Tag" 
+,"baseIri":"http://purl.org/muto/core" 
+,"label":{
+ "IRI-based": "Tag",
+ "en": "Tag"
+}
+}
+,{ "id":"5" 
+,"iri":"http://www.w3.org/2004/02/skos/core#Concept" 
+,"baseIri":"http://www.w3.org/2004/02/skos/core" 
+,"label":{
+ "IRI-based": "Concept",
+ "en": "Concept"
+}
+}
+,{ "id":"7" 
+,"iri":"http://www.w3.org/2001/XMLSchema#dateTime" 
+,"baseIri":"http://www.w3.org/2001/XMLSchema" 
+,"label":{
+ "IRI-based": "dateTime"
+}
+}
+,{ "id":"15" 
+,"iri":"http://www.w3.org/2001/XMLSchema#dateTime" 
+,"baseIri":"http://www.w3.org/2001/XMLSchema" 
+,"label":{
+ "IRI-based": "dateTime"
+}
+}
+,{ "id":"2" 
+,"iri":"http://www.w3.org/2002/07/owl#Thing" 
+,"baseIri":"http://owl2vowl.de" 
+,"label":{
+ "undefined": "Thing"
+}
+}
+,{ "id":"9" 
+,"iri":"http://www.w3.org/2002/07/owl#Thing" 
+,"baseIri":"http://owl2vowl.de" 
+,"label":{
+ "undefined": "Thing"
+}
+}
+,{ "id":"10" 
+,"iri":"http://www.w3.org/2000/01/rdf-schema#Literal" 
+,"baseIri":"" 
+,"label":{
+ "IRI-based": "Literal",
+ "undefined": "Literal"
+}
+}
+,{ "id":"18" 
+,"iri":"http://www.w3.org/2002/07/owl#Thing" 
+,"baseIri":"http://owl2vowl.de" 
+,"label":{
+ "undefined": "Thing"
+}
+}
+,{ "id":"19" 
+,"iri":"http://www.w3.org/2000/01/rdf-schema#Literal" 
+,"baseIri":"" 
+,"label":{
+ "IRI-based": "Literal",
+ "undefined": "Literal"
+}
+}
+,{ "id":"21" 
+,"iri":"http://purl.org/muto/core#PrivateTagging" 
+,"baseIri":"http://purl.org/muto/core" 
+,"label":{
+ "IRI-based": "PrivateTagging",
+ "en": "Private Tagging"
+}
+}
+,{ "id":"24" 
+,"iri":"http://www.w3.org/2001/XMLSchema#dateTime" 
+,"baseIri":"http://www.w3.org/2001/XMLSchema" 
+,"label":{
+ "IRI-based": "dateTime"
+}
+}
+,{ "id":"25" 
+,"iri":"http://www.w3.org/2000/01/rdf-schema#Literal" 
+,"baseIri":"http://www.w3.org/2000/01/rdf-schema" 
+,"label":{
+ "IRI-based": "Literal",
+ "undefined": "Literal"
+}
+}
+,{ "id":"6" 
+,"iri":"http://purl.org/muto/core#AutoTag" 
+,"baseIri":"http://purl.org/muto/core" 
+,"label":{
+ "IRI-based": "AutoTag",
+ "en": "Automatic Tag"
+}
+}
+,{ "id":"32" 
+,"iri":"http://rdfs.org/sioc/ns#Item" 
+,"baseIri":"http://rdfs.org/sioc/ns" 
+,"label":{
+ "IRI-based": "Item"
+}
+}
+,{ "id":"12" 
+,"iri":"http://rdfs.org/sioc/ns#UserAccount" 
+,"baseIri":"http://rdfs.org/sioc/ns" 
+,"label":{
+ "IRI-based": "UserAccount"
+}
+}
+,{ "id":"1" 
+,"iri":"http://purl.org/muto/core#Tagging" 
+,"baseIri":"http://purl.org/muto/core" 
+,"label":{
+ "IRI-based": "Tagging",
+ "en": "Tagging"
+}
+}
+]
+,
+"property": [
+{ "id":"0" , "type":"owl:objectProperty"}
+,{ "id":"8" , "type":"owl:datatypeProperty"}
+,{ "id":"11" , "type":"owl:objectProperty"}
+,{ "id":"16" , "type":"owl:objectProperty"}
+,{ "id":"20" , "type":"rdfs:SubClassOf"}
+,{ "id":"22" , "type":"owl:objectProperty"}
+,{ "id":"26" , "type":"owl:objectProperty"}
+,{ "id":"27" , "type":"owl:objectProperty"}
+,{ "id":"13" , "type":"owl:objectProperty"}
+,{ "id":"28" , "type":"owl:objectProperty"}
+,{ "id":"17" , "type":"owl:objectProperty"}
+,{ "id":"29" , "type":"owl:objectProperty"}
+,{ "id":"31" , "type":"owl:datatypeProperty"}
+,{ "id":"14" , "type":"owl:objectProperty"}
+,{ "id":"23" , "type":"owl:objectProperty"}
+,{ "id":"34" , "type":"owl:datatypeProperty"}
+,{ "id":"33" , "type":"owl:objectProperty"}
+,{ "id":"3" , "type":"owl:objectProperty"}
+,{ "id":"30" , "type":"owl:objectProperty"}
+,{ "id":"35" , "type":"owl:datatypeProperty"}
+,{ "id":"36" , "type":"owl:datatypeProperty"}
+,{ "id":"37" , "type":"rdfs:SubClassOf"}
+,{ "id":"38" , "type":"owl:objectProperty"}
+,{ "id":"39" , "type":"owl:datatypeProperty"}
+,{ "id":"40" , "type":"rdfs:SubClassOf"}
+,{ "id":"41" , "type":"rdfs:SubClassOf"}
+]
+,
+"propertyAttribute": [
+{ "id":"0" 
+,"iri":"http://purl.org/muto/core#taggedResource" 
+,"baseIri":"http://purl.org/muto/core" 
+,"domain":"1" 
+,"range":"2" 
+,"label":{
+ "IRI-based": "taggedResource",
+ "en": "tagged resource"
+}
+}
+,{ "id":"8" 
+,"iri":"http://purl.org/dc/terms/modified" 
+,"baseIri":"http://purl.org/dc/terms" 
+,"domain":"9" 
+,"range":"10" 
+,"label":{
+ "IRI-based": "modified"
+}
+}
+,{ "id":"11" 
+,"iri":"http://purl.org/muto/core#creatorOf" 
+,"baseIri":"http://purl.org/muto/core" 
+,"domain":"12" 
+,"range":"1" 
+,"label":{
+ "IRI-based": "creatorOf",
+ "en": "creator of"
+}
+}
+,{ "id":"16" 
+,"iri":"http://purl.org/muto/core#hasAccess" 
+,"baseIri":"http://purl.org/muto/core" 
+,"domain":"2" 
+,"range":"1" 
+,"label":{
+ "IRI-based": "hasAccess",
+ "en": "has access"
+}
+}
+,{ "id":"20" 
+,"iri":"" 
+,"baseIri":"" 
+,"domain":"6" 
+,"range":"4" 
+,"label":"Subclass of"
+}
+,{ "id":"22" 
+,"iri":"http://purl.org/muto/core#meaningOf" 
+,"baseIri":"http://purl.org/muto/core" 
+,"domain":"18" 
+,"range":"4" 
+,"label":{
+ "IRI-based": "meaningOf",
+ "en": "meaning of"
+}
+}
+,{ "id":"26" 
+,"iri":"http://rdfs.org/sioc/ns#has_creator" 
+,"baseIri":"http://rdfs.org/sioc/ns" 
+,"domain":"9" 
+,"range":"9" 
+,"label":{
+ "IRI-based": "has_creator"
+}
+}
+,{ "id":"27" 
+,"iri":"http://purl.org/muto/core#tagOf" 
+,"baseIri":"http://purl.org/muto/core" 
+,"domain":"4" 
+,"range":"1" 
+,"label":{
+ "IRI-based": "tagOf",
+ "en": "tag of"
+}
+}
+,{ "id":"13" 
+,"iri":"http://purl.org/muto/core#hasCreator" 
+,"baseIri":"http://purl.org/muto/core" 
+,"domain":"1" 
+,"range":"12" 
+,"label":{
+ "IRI-based": "hasCreator",
+ "en": "has creator"
+}
+}
+,{ "id":"28" 
+,"iri":"http://purl.org/muto/core#hasTag" 
+,"baseIri":"http://purl.org/muto/core" 
+,"domain":"1" 
+,"range":"4" 
+,"label":{
+ "IRI-based": "hasTag",
+ "en": "has tag"
+}
+}
+,{ "id":"17" 
+,"iri":"http://purl.org/muto/core#grantAccess" 
+,"baseIri":"http://purl.org/muto/core" 
+,"domain":"1" 
+,"range":"2" 
+,"label":{
+ "IRI-based": "grantAccess",
+ "en": "grant access"
+}
+}
+,{ "id":"29" 
+,"iri":"http://purl.org/muto/core#previousTag" 
+,"baseIri":"http://purl.org/muto/core" 
+,"domain":"4" 
+,"range":"4" 
+,"label":{
+ "IRI-based": "previousTag",
+ "en": "previous tag"
+}
+}
+,{ "id":"31" 
+,"iri":"http://purl.org/muto/core#tagLabel" 
+,"baseIri":"http://purl.org/muto/core" 
+,"domain":"4" 
+,"range":"25" 
+,"label":{
+ "IRI-based": "tagLabel",
+ "en": "tag label"
+}
+}
+,{ "id":"14" 
+,"iri":"http://rdfs.org/sioc/ns#creator_of" 
+,"baseIri":"http://rdfs.org/sioc/ns" 
+,"domain":"9" 
+,"range":"9" 
+,"label":{
+ "IRI-based": "creator_of"
+}
+}
+,{ "id":"23" 
+,"iri":"http://purl.org/muto/core#tagMeaning" 
+,"baseIri":"http://purl.org/muto/core" 
+,"domain":"4" 
+,"range":"18" 
+,"label":{
+ "IRI-based": "tagMeaning",
+ "en": "tag meaning"
+}
+}
+,{ "id":"34" 
+,"iri":"http://purl.org/muto/core#taggingModified" 
+,"baseIri":"http://purl.org/muto/core" 
+,"domain":"1" 
+,"range":"15" 
+,"label":{
+ "IRI-based": "taggingModified",
+ "en": "tagging modified"
+}
+}
+,{ "id":"33" 
+,"iri":"http://purl.org/muto/core#autoMeaning" 
+,"baseIri":"http://purl.org/muto/core" 
+,"domain":"4" 
+,"range":"18" 
+,"label":{
+ "IRI-based": "autoMeaning",
+ "en": "automatic tag meaning"
+}
+}
+,{ "id":"3" 
+,"iri":"http://rdfs.org/sioc/ns#about" 
+,"baseIri":"http://rdfs.org/sioc/ns" 
+,"domain":"9" 
+,"range":"9" 
+,"label":{
+ "IRI-based": "about"
+}
+}
+,{ "id":"30" 
+,"iri":"http://purl.org/muto/core#nextTag" 
+,"baseIri":"http://purl.org/muto/core" 
+,"domain":"4" 
+,"range":"4" 
+,"label":{
+ "IRI-based": "nextTag",
+ "en": "next tag"
+}
+}
+,{ "id":"35" 
+,"iri":"http://purl.org/muto/core#taggingCreated" 
+,"baseIri":"http://purl.org/muto/core" 
+,"domain":"1" 
+,"range":"7" 
+,"label":{
+ "IRI-based": "taggingCreated",
+ "en": "tagging created"
+}
+}
+,{ "id":"36" 
+,"iri":"http://purl.org/dc/terms/created" 
+,"baseIri":"http://purl.org/dc/terms" 
+,"domain":"9" 
+,"range":"19" 
+,"label":{
+ "IRI-based": "created"
+}
+}
+,{ "id":"37" 
+,"iri":"" 
+,"baseIri":"" 
+,"domain":"4" 
+,"range":"5" 
+,"label":"Subclass of"
+}
+,{ "id":"38" 
+,"iri":"http://purl.org/muto/core#taggedWith" 
+,"baseIri":"http://purl.org/muto/core" 
+,"domain":"2" 
+,"range":"1" 
+,"label":{
+ "IRI-based": "taggedWith",
+ "en": "tagged with"
+}
+}
+,{ "id":"39" 
+,"iri":"http://purl.org/muto/core#tagCreated" 
+,"baseIri":"http://purl.org/muto/core" 
+,"domain":"4" 
+,"range":"24" 
+,"label":{
+ "IRI-based": "tagCreated",
+ "en": "tag created"
+}
+}
+,{ "id":"40" 
+,"iri":"" 
+,"baseIri":"" 
+,"domain":"21" 
+,"range":"1" 
+,"label":"Subclass of"
+}
+,{ "id":"41" 
+,"iri":"" 
+,"baseIri":"" 
+,"domain":"1" 
+,"range":"32" 
+,"label":"Subclass of"
+}
+]
+
+}

@@ -1,0 +1,206 @@
+{
+"_comment":"Exported with WebVOWL Api (v3.version 0.0.1 )", 
+"viewDefinitions": [ 
+{
+ "gizmoConfig": "gizmoVOWL.json",
+ "elementAttributes": [
+  {
+   "id": "c1",
+   "pos": [
+    "733.03",
+    "146.94"
+   ],
+   "visible": true
+  },
+  {
+   "id": "c2",
+   "pos": [
+    "1061.57",
+    "65.65"
+   ],
+   "visible": true
+  },
+  {
+   "id": "p1",
+   "pos": [
+    "0.00",
+    "0.00"
+   ],
+   "visible": false
+  },
+  {
+   "id": "p2",
+   "pos": [
+    "0.00",
+    "0.00"
+   ],
+   "visible": false
+  },
+  {
+   "id": "p3",
+   "pos": [
+    "0.00",
+    "0.00"
+   ],
+   "visible": false
+  }
+ ]
+}
+,{
+ "gizmoConfig": "gizmoTest.json",
+ "elementAttributes": [
+  {
+   "id": "c1",
+   "pos": [
+    "1380.85",
+    "410.99"
+   ],
+   "visible": true
+  },
+  {
+   "id": "c2",
+   "pos": [
+    "1738.92",
+    "285.80"
+   ],
+   "visible": true
+  },
+  {
+   "id": "p1",
+   "pos": [
+    "1601.62",
+    "467.67"
+   ],
+   "visible": true
+  },
+  {
+   "id": "p2",
+   "pos": [
+    "1559.87",
+    "348.43"
+   ],
+   "visible": true
+  },
+  {
+   "id": "p3",
+   "pos": [
+    "1518.16",
+    "229.13"
+   ],
+   "visible": true
+  }
+ ]
+}
+,{
+ "gizmoConfig": "gizmoVOWL.json",
+ "elementAttributes": [
+  {
+   "id": "c1",
+   "pos": [
+    "1730.77",
+    "381.83"
+   ],
+   "visible": true
+  },
+  {
+   "id": "c2",
+   "pos": [
+    "1351.69",
+    "363.57"
+   ],
+   "visible": true
+  },
+  {
+   "id": "p1",
+   "pos": [
+    "1541.31",
+    "372.82"
+   ],
+   "visible": true
+  },
+  {
+   "id": "p2",
+   "pos": [
+    "1547.17",
+    "246.56"
+   ],
+   "visible": true
+  },
+  {
+   "id": "p3",
+   "pos": [
+    "1535.25",
+    "498.95"
+   ],
+   "visible": true
+  }
+ ]
+}
+],
+"header":{
+"languages": [
+ "en",
+ "undefined"
+]
+,"baseIris": [
+ "http://www.w3.org/2000/01/rdf-schema",
+ "http://visualdataweb.de/test_cases_vowl/ontology/72"
+]
+,"prefixList": {}
+,"title": {}
+,"iri": "http://visualdataweb.de/example_ontology/"
+,"version": ""
+,"author": []
+,"description": {}
+,"labels": {}
+,"other": {}
+},
+"class": [
+{ "id":"c1" , "type":"owl:Class"}
+,{ "id":"c2" , "type":"owl:Thing"}
+]
+,
+"classAttribute": [
+{ "id":"c1" 
+,"iri":"" 
+,"baseIri":"" 
+,"label":"A"
+}
+,{ "id":"c2" 
+,"iri":"" 
+,"baseIri":"" 
+,"label":"Thing"
+}
+]
+,
+"property": [
+{ "id":"p1" , "type":"owl:objectProperty"}
+,{ "id":"p2" , "type":"owl:objectProperty"}
+,{ "id":"p3" , "type":"owl:objectProperty"}
+]
+,
+"propertyAttribute": [
+{ "id":"p1" 
+,"iri":"" 
+,"baseIri":"" 
+,"domain":"c1" 
+,"range":"c2" 
+,"label":"p1"
+}
+,{ "id":"p2" 
+,"iri":"" 
+,"baseIri":"" 
+,"domain":"c1" 
+,"range":"c2" 
+,"label":"p2"
+}
+,{ "id":"p3" 
+,"iri":"" 
+,"baseIri":"" 
+,"domain":"c2" 
+,"range":"c1" 
+,"label":"p3"
+}
+]
+
+}

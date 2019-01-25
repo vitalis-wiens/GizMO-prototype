@@ -1,0 +1,580 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en" ],
+    "baseIris" : [ "http://purl.org/muto/core", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://purl.org/dc/terms", "http://www.w3.org/2001/XMLSchema", "http://rdfs.org/sioc/ns", "http://www.w3.org/2004/02/skos/core" ],
+    "prefixList" : {
+      "owl" : "http://www.w3.org/2002/07/owl#",
+      "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "sioc" : "http://rdfs.org/sioc/ns#",
+      "dcterms" : "http://purl.org/dc/terms/",
+      "skos" : "http://www.w3.org/2004/02/skos/core#",
+      "xsd" : "http://www.w3.org/2001/XMLSchema#",
+      "" : "http://www.semanticweb.org/owl/owlapi/turtle#",
+      "dc" : "http://purl.org/dc/elements/1.1/",
+      "xml" : "http://www.w3.org/XML/1998/namespace",
+      "foaf" : "http://xmlns.com/foaf/0.1/",
+      "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "iri" : "http://purl.org/muto/core"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "14",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "2",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "10",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "16",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://purl.org/muto/core#Tag",
+    "baseIri" : "http://purl.org/muto/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Tag",
+      "en" : "Tag"
+    },
+    "subClasses" : [ "5" ],
+    "id" : "3",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3.org/2004/02/skos/core#Concept",
+    "baseIri" : "http://www.w3.org/2004/02/skos/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Concept",
+      "en" : "Concept"
+    },
+    "subClasses" : [ "3" ],
+    "attributes" : [ "external" ],
+    "id" : "4"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "6",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "12",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "13",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "14",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "2",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "10",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "16",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://purl.org/muto/core#PrivateTagging",
+    "baseIri" : "http://purl.org/muto/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PrivateTagging",
+      "en" : "Private Tagging"
+    },
+    "id" : "19",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "20",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "id" : "11",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://purl.org/muto/core#AutoTag",
+    "baseIri" : "http://purl.org/muto/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AutoTag",
+      "en" : "Automatic Tag"
+    },
+    "id" : "5",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://rdfs.org/sioc/ns#Item",
+    "baseIri" : "http://rdfs.org/sioc/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Item",
+      "en" : "Item"
+    },
+    "subClasses" : [ "1" ],
+    "attributes" : [ "external" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://rdfs.org/sioc/ns#UserAccount",
+    "baseIri" : "http://rdfs.org/sioc/ns",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "UserAccount",
+      "en" : "UserAccount"
+    },
+    "attributes" : [ "external" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://purl.org/muto/core#Tagging",
+    "baseIri" : "http://purl.org/muto/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Tagging",
+      "en" : "Tagging"
+    },
+    "subClasses" : [ "19" ],
+    "id" : "1",
+    "superClasses" : [ "30" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "7",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "9",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "17",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "18",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "21",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "22",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "23",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "24",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "26",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "27",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "28",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "29",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "31",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "32",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "33",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "34",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "35",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "36",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "38",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "39",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:SubClassOf"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://purl.org/muto/core#taggedResource",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "taggedResource",
+      "en" : "tagged resource"
+    },
+    "cardinality" : 0.3,
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://purl.org/muto/core#creatorOf",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "creatorOf",
+      "en" : "creator of"
+    },
+    "cardinality" : 0.3,
+    "domain" : "8",
+    "attributes" : [ "object" ],
+    "id" : "7"
+  }, {
+    "iri" : "http://purl.org/dc/terms/modified",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "11",
+    "label" : {
+      "IRI-based" : "modified",
+      "en" : "modified"
+    },
+    "cardinality" : 0.3,
+    "domain" : "10",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "9"
+  }, {
+    "iri" : "http://purl.org/muto/core#hasAccess",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "hasAccess",
+      "en" : "has access"
+    },
+    "cardinality" : 0.3,
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "15"
+  }, {
+    "range" : "3",
+    "cardinality" : 0.3,
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "17"
+  }, {
+    "iri" : "http://purl.org/muto/core#meaningOf",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "meaningOf",
+      "en" : "meaning of"
+    },
+    "cardinality" : 0.3,
+    "domain" : "16",
+    "attributes" : [ "object" ],
+    "id" : "18"
+  }, {
+    "iri" : "http://rdfs.org/sioc/ns#has_creator",
+    "baseIri" : "http://rdfs.org/sioc/ns",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "has_creator",
+      "en" : "has_creator"
+    },
+    "cardinality" : 0.3,
+    "domain" : "10",
+    "attributes" : [ "external", "object" ],
+    "id" : "21"
+  }, {
+    "iri" : "http://purl.org/muto/core#tagOf",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "tagOf",
+      "en" : "tag of"
+    },
+    "cardinality" : 0.3,
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "22"
+  }, {
+    "iri" : "http://purl.org/muto/core#hasCreator",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "hasCreator",
+      "en" : "has creator"
+    },
+    "cardinality" : 0.3,
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "23"
+  }, {
+    "iri" : "http://purl.org/muto/core#hasTag",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "hasTag",
+      "en" : "has tag"
+    },
+    "cardinality" : 0.3,
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://purl.org/muto/core#grantAccess",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "grantAccess",
+      "en" : "grant access"
+    },
+    "cardinality" : 0.3,
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "25"
+  }, {
+    "iri" : "http://purl.org/muto/core#previousTag",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "previousTag",
+      "en" : "previous tag"
+    },
+    "cardinality" : 0.3,
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "26"
+  }, {
+    "iri" : "http://rdfs.org/sioc/ns#creator_of",
+    "baseIri" : "http://rdfs.org/sioc/ns",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "creator_of",
+      "en" : "creator_of"
+    },
+    "cardinality" : 0.3,
+    "domain" : "10",
+    "attributes" : [ "external", "object" ],
+    "id" : "27"
+  }, {
+    "iri" : "http://purl.org/muto/core#tagLabel",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "tagLabel",
+      "en" : "tag label"
+    },
+    "cardinality" : 0.3,
+    "domain" : "3",
+    "attributes" : [ "datatype" ],
+    "id" : "28"
+  }, {
+    "iri" : "http://purl.org/muto/core#tagMeaning",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "tagMeaning",
+      "en" : "tag meaning"
+    },
+    "cardinality" : 0.3,
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "29"
+  }, {
+    "iri" : "http://purl.org/muto/core#taggingModified",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "taggingModified",
+      "en" : "tagging modified"
+    },
+    "cardinality" : 0.3,
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "31"
+  }, {
+    "iri" : "http://purl.org/muto/core#autoMeaning",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "autoMeaning",
+      "en" : "automatic tag meaning"
+    },
+    "cardinality" : 0.3,
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "32"
+  }, {
+    "iri" : "http://rdfs.org/sioc/ns#about",
+    "baseIri" : "http://rdfs.org/sioc/ns",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "about",
+      "en" : "about"
+    },
+    "cardinality" : 0.3,
+    "domain" : "10",
+    "attributes" : [ "external", "object" ],
+    "id" : "33"
+  }, {
+    "iri" : "http://purl.org/muto/core#nextTag",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "3",
+    "label" : {
+      "IRI-based" : "nextTag",
+      "en" : "next tag"
+    },
+    "cardinality" : 0.3,
+    "domain" : "3",
+    "attributes" : [ "object" ],
+    "id" : "34"
+  }, {
+    "iri" : "http://purl.org/muto/core#taggingCreated",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "taggingCreated",
+      "en" : "tagging created"
+    },
+    "cardinality" : 0.3,
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://purl.org/dc/terms/created",
+    "baseIri" : "http://purl.org/dc/terms",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "created",
+      "en" : "created"
+    },
+    "cardinality" : 0.3,
+    "domain" : "10",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "36"
+  }, {
+    "range" : "4",
+    "cardinality" : 0.3,
+    "domain" : "3",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "37"
+  }, {
+    "iri" : "http://purl.org/muto/core#taggedWith",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "taggedWith",
+      "en" : "tagged with"
+    },
+    "cardinality" : 0.3,
+    "domain" : "2",
+    "attributes" : [ "object" ],
+    "id" : "38"
+  }, {
+    "iri" : "http://purl.org/muto/core#tagCreated",
+    "baseIri" : "http://purl.org/muto/core",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "tagCreated",
+      "en" : "tag created"
+    },
+    "cardinality" : 0.3,
+    "domain" : "3",
+    "attributes" : [ "datatype" ],
+    "id" : "39"
+  }, {
+    "range" : "1",
+    "cardinality" : 0.3,
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "40"
+  }, {
+    "range" : "30",
+    "cardinality" : 0.3,
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "41"
+  } ]
+}

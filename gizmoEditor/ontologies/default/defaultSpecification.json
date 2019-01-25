@@ -1,0 +1,146 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "baseIris" : [ "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "prefixList" : {
+      "owl" : "http://www.w3.org/2002/07/owl#",
+      "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "gizmo" : "http://visualdataweb.org/ontologies/gizmo-core#",
+      "defaultSpecification" : "http://visualdataweb.org/ontologies/defaultSpecification#",
+      "xsd" : "http://www.w3.org/2001/XMLSchema#",
+      "xml" : "http://www.w3.org/XML/1998/namespace",
+      "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "iri" : "http://visualdataweb.org/ontologies/defaultSpecification"
+  },
+  "namespace" : [ ],
+  "gizmoAnnotations" : [ {
+    "iri" : "http://visualdataweb.org/ontologies/defaultSpecification#defaultNodeElement",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#ff0000",
+      "renderingType" : "ellipse",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "allowDatatypeCollapseExpand" : "true",
+      "hoverInCursor" : "pointer",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "true",
+      "bgColor" : "#cccccc",
+      "defaultCollapsedLoops" : "false",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "true",
+      "fontSize" : "12px",
+      "defaultCollapsedDatatypes" : "false",
+      "hoverInFontColor" : "#000000",
+      "allowLoopCollapseExpand" : "true",
+      "strokeColor" : "#ffffff",
+      "overWriteOffset" : "25",
+      "targetElement" : "http://visualdataweb.org/ontologies/defaultSpecification#defaultNodeElement",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://visualdataweb.org/ontologies/defaultSpecification#collapsedLoops",
+    "annotations" : {
+      "inshapeType" : "indicator",
+      "renderingType" : "inshape",
+      "inshapeStrokeStrokeWidth" : "2",
+      "inshapeStrokeType" : "dashed",
+      "targetElement" : "http://visualdataweb.org/ontologies/defaultSpecification#collapsedLoops",
+      "inshapeIndicatorOffset" : "0",
+      "inshapeStrokeColor" : "#166aea"
+    }
+  }, {
+    "iri" : "http://visualdataweb.org/ontologies/defaultSpecification#defaultDatatypeElement",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#ff0000",
+      "renderingType" : "rect",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "true",
+      "bgColor" : "#ff8d00",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "true",
+      "roundedCorner" : "3,10",
+      "fontSize" : "12px",
+      "hoverInFontColor" : "#000000",
+      "strokeColor" : "#000000",
+      "overWriteOffset" : "12",
+      "targetElement" : "http://visualdataweb.org/ontologies/defaultSpecification#defaultDatatypeElement",
+      "fontColor" : "#000000"
+    }
+  }, {
+    "iri" : "http://visualdataweb.org/ontologies/defaultSpecification#defaultPropertyElement",
+    "annotations" : {
+      "strokeWidth" : "2px",
+      "link_arrowHead_scaleFactor" : "1.0",
+      "link_arrowHead_strokeStyle" : "solid",
+      "renderingType" : "ellipse",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "true",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "link_strokeStyle" : "solid",
+      "bgColor" : "#cbcbcb",
+      "fontSizeOverWritesShapeSize" : "true",
+      "hoverInColor" : "#ff0000",
+      "link_strokeColor" : "#000000",
+      "link_strokeWidth" : "2px",
+      "hoverInFontColor" : "#000000",
+      "strokeColor" : "#000000",
+      "targetElement" : "http://visualdataweb.org/ontologies/defaultSpecification#defaultPropertyElement",
+      "link_arrowHead_fillColor" : "#000000",
+      "strokeStyle" : "solid",
+      "hoverInStrokeColor" : "#ff0000",
+      "link_arrowHead_strokeColor" : "#000000",
+      "link_hoverColor" : "#ff0000",
+      "strokeElement" : "true",
+      "link_arrowHead_renderingType" : "triangle",
+      "fontSize" : "12px",
+      "overWriteOffset" : "25",
+      "fontColor" : "#000000",
+      "link_arrowHead_strokeWidth" : "2px"
+    }
+  }, {
+    "iri" : "http://visualdataweb.org/ontologies/defaultSpecification#collapsedMultiLinkProperty",
+    "annotations" : {
+      "hoverInStrokeColor" : "#ff0000",
+      "renderingType" : "rect",
+      "hoverInFontFamily" : "Helvetica,Arial,sans-serif",
+      "hoverInCursor" : "pointer",
+      "link_arrowHead" : "false",
+      "link_hoverColor" : "undefined",
+      "hoverInFontSize" : "12px",
+      "fontFamily" : "Helvetica,Arial,sans-serif",
+      "strokeElement" : "false",
+      "link_strokeStyle" : "dashed",
+      "bgColor" : "#c4c4c4",
+      "hoverInColor" : "#ff0000",
+      "fontSizeOverWritesShapeSize" : "false",
+      "width" : "60",
+      "roundedCorner" : "0,0",
+      "link_strokeWidth" : "2px",
+      "fontSize" : "12px",
+      "link_strokeColor" : "#000000",
+      "hoverInFontColor" : "#000000",
+      "targetElement" : "http://visualdataweb.org/ontologies/defaultSpecification#collapsedMultiLinkProperty",
+      "fontColor" : "#000000",
+      "height" : "20"
+    }
+  }, {
+    "iri" : "http://visualdataweb.org/ontologies/defaultSpecification#collapsedDatatypes",
+    "annotations" : {
+      "inshapeType" : "indicator",
+      "renderingType" : "inshape",
+      "inshapeStrokeStrokeWidth" : "2",
+      "inshapeStrokeType" : "solid",
+      "targetElement" : "http://visualdataweb.org/ontologies/defaultSpecification#collapsedDatatypes",
+      "inshapeIndicatorOffset" : "0",
+      "inshapeStrokeColor" : "#00fff9"
+    }
+  } ]
+}

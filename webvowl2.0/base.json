@@ -1,0 +1,52 @@
+{
+  "_comment" : "Just a test ",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/2000/01/rdf-schema", "http://visualdataweb.de/test_cases_vowl/ontology/72" ],
+    "iri" : "http://example.org/example_ontology/",
+    "prefixList" : {
+      "owl" : "http://www.w3.org/2002/07/owl#",
+      "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "gizmo" : "http://visualdataweb.org/ontologies/gizmo-core#",
+      "ex" : "http://example.org/example_ontology#",
+      "xsd" : "http://www.w3.org/2001/XMLSchema#",
+      "xml" : "http://www.w3.org/XML/1998/namespace",
+      "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+    }
+  },
+
+  "class" : [
+    { "id" : "c1",  "type" : "owl:Class" }
+   ,{ "id" : "d1",  "type" : "rdfs:Literal" }
+   ,{ "id" : "d2",  "type" : "rdfs:Literal" }
+  ],
+
+  "classAttribute" : [
+    { "label" : "Person",         "id" : "c1",
+      "iri" : "http://example.org/example_ontology#Person",
+      "baseIri" : "http://example.org/example_ontology"
+    },
+    { "label" : "rdfs:Literal",         "id" : "d1",
+      "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri" : "http://www.w3.org/2000/01/rdf-schema"
+    },
+    { "label" : "rdfs:Literal",         "id" : "d2",
+      "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+      "baseIri" : "http://www.w3.org/2000/01/rdf-schema"
+    }
+
+
+  ],
+
+  "property" : [
+   { "id" : "p1",  "type" : "owl:datatypeProperty"},
+   { "id" : "p2",  "type" : "owl:datatypeProperty"}
+
+  ],
+
+  "propertyAttribute" : [
+   { "id":"p1" ,    "iri" : "http://example.org/example_ontology#firstName", "domain" : "c1",  "range" : "d1", "label": "first name" },
+   { "id":"p2" ,    "iri" : "http://example.org/example_ontology#lastName", "domain" : "c1",  "range" : "d2", "label": "last name" }
+   
+  ]
+}
